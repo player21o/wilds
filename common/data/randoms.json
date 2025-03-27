@@ -1,0 +1,71 @@
+[
+
+  {
+    "sprite": [0, 0, 78, 132],
+    "hitbox": [0, 20, 64, 112]
+  },
+
+  {
+    "sprite": [95, 16, 125, 90],
+    "hitbox": [96, 35, 89, 69]
+
+  },
+
+  {
+    "sprite": [94, 120, 58, 84],
+    "hitbox": [95, 139, 43, 64],
+    "components": [{
+      "component": "MiniShop",
+      "item": "knife",
+      "shopkeeper": {
+        "sprite": [105, 205, 18, 21],
+        "x": 98,
+        "y": 164
+      }
+    }]
+  },
+
+  {
+    "sprite": [161, 120, 58, 84],
+    "hitbox": [162, 140, 43, 64],
+    "components": [{
+      "component": "MiniShop",
+      "item": "potion_health",
+      "shopkeeper": {
+        "sprite": [175, 208, 16, 22],
+        "x": 166,
+        "y": 162
+      }
+    }]
+  },
+
+  {
+    "sprite": [231, 120, 58, 84],
+    "hitbox": [231, 140, 43, 64],
+    "components": [{
+      "component": "MiniShop",
+      "item": "gold_for_value",
+      "shopkeeper": {
+        "sprite": [245, 205, 18, 18],
+        "x": 237,
+        "y": 163
+      }
+    }]
+  },
+
+  {
+    "sprite": [297, 120, 58, 84],
+    "hitbox": [297, 140, 43, 64],
+    "components": [{
+      "component": "MiniShop",
+      "item": "rope",
+      "shopkeeper": {
+        "sprite": [309, 208, 18, 19],
+        "x": 300,
+        "y": 164
+      }
+    }]
+  }
+
+
+]

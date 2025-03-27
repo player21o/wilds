@@ -1,0 +1,149 @@
+<div class="lobby-window ui gui-cols space-between grow">
+    <div ui-id="left" class="gui-rows" style="width:380px; margin-right: 32px"></div>
+    <div ui-id="center" class="gui-rows" ui-replace="mainWindow"></div>
+    <div class="gui-rows style-1 lobby-view spacing-md main-window" ui-id="mainWindow">
+        <div class="side-menu gui-rows">
+            <span ui-id="settings" class="button stretch just-center" tooltip="Settings and controls" title="settings" style="font-size: 32px">⚙</span>
+            <span ui-id="tribe" class="button iap" tooltip="Your tribe and world map"><span class="css-sprite css-sprite-tribe"></span></span>
+            <span ui-id="leaderboards" class="button iap" tooltip="Best players"><span class="css-sprite css-sprite-leaderboards"></span></span>
+            <a href="http://wildsiogame.wikia.com/wiki/Wilds.io_Wiki" tooltip="WIKI/HELP" target="blank" ui-id="help" class="button outgoing-link"><span class="css-sprite css-sprite-help"></span></a>
+            <a href="https://patreon.com/wildsio" class="button iap outgoing-link" target="_blank" tooltip="Support the game on Patreon">
+                <span class="css-sprite css-sprite-patreon_button"></span>
+            </a>
+            <a href="https://web.facebook.com/wildsio/" class="button small iap outgoing-link" target="_blank" tooltip="Fanpage on facebook">
+                <span class="css-sprite css-sprite-facebook_button"></span>
+            </a>
+            <a href="https://discordapp.com/invite/vWFBQa3" class="button small outgoing-link" target="_blank" tooltip="Talk with other players on discord">
+                <span class="css-sprite css-sprite-discord_button"></span>
+            </a>
+            <a href="https://twitter.com/rezoner" class="button small iap outgoing-link" target="_blank" tooltip="Author's twitter">
+                <span class="css-sprite css-sprite-twitter_button"></span>
+            </a>
+        </div>
+        <div class="top-counters gui-cols">
+            <span class="gui-gold-counter gui-clickable" ui-id="goldCounter">
+                <span ui-id="gold">0</span>
+                <img src="images/coin.gif" class="coin">
+            </span>
+            <span class="gui-flat-counter gui-clickable promo-recruits iap hidden" ui-id="recruitsCounter">
+                <span ui-id="recruits">0</span>
+                <img src="images/dollar.gif" class="coin">
+            </span>
+        </div>
+        <!-- WATCH TAB -->
+        <div style="display: none;" ui-id="tabWatch" class="gui-rows spacing-md"">
+
+          <span class=" gui-form-divide">WATCH RANKED MATCHES</span>
+            <div class="list"></div>
+            <div class="gui-cols grow-equal spacing-md">
+                <span ui-id="watchtabClose" class="gui-button">BACK</span>
+            </div>
+        </div>
+        <!-- GAME TAB -->
+        <div style="display:none" ui-id="tabPlay" class="gui-rows spacing-md">
+            <div class="gui-rows spacing-md">
+                <span class="gui-form-divide min-medium-screen">SELECT MAP</span>
+                <div class="gui-rows lobby-view spacing-md text-align-center" ui-id="waiting">
+                    <h2>Waiting for a match</h2>
+                    <div style="text-align: center">
+                        <img src="https://i.imgur.com/JYv8p4i.gif" height=48>
+                    </div>
+                    <span ui-id="cancelMatchmaking" class="gui-button primary just-center size-sm">Cancel</span>
+                </div>
+                <table ui-id="mapsTable" class="maps-table gui-table">
+                    <tbody>
+                        <tr>
+                            <th width="100%" class="text-align-center">QUICK PLAY</th>
+                            <th>Players</th>
+                            <th>Queue</th>
+                            <th>&nbsp;</th>
+                        </tr>
+                        <tr ui-id="mapsTableRow">
+                            <td class="name"><span class="gui-button play">{lang:play}</span>
+                            </td>
+                            <td class="playing text-align-center">0</td>
+                            <td class="waiting text-align-center">0</td>
+                            <td class="special text-align-center"></td>
+                        </tr>
+                        <tr ui-id="mapsTableSeparator">
+                            <th colspan=1 class="separator text-align-center">Matchmaking</th>
+                            <th colspan=3 class="separator text-align-center">&nbsp;</th>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="gui-cols grow-equal grow-1 auto-basis">
+                    <div class="gui-vertical">
+                        <span class="gui-form-divide min-medium-screen">SERVER</span>
+                        <div ui-id="locations" class="gui-toggles gui-rows grow">
+                            <span ui-value="EU">EUROPE</span>
+                            <span ui-value="US">AMERICA</span>
+                            <span ui-value="AS">ASIA/AUSTRALIA</span>
+                        </div>
+                    </div>
+                    <div class="gui-vertical">
+                        <span class="gui-form-divide min-medium-screen">GROUP</span>
+                        <div class="gui-cols align-center spacing-md enhance" tooltip="Use the same group name as your friend and the game will put you on the same map.">
+                            <input ui-id="mmtag" type="text" placeholder="{lang:matchmaking_group}" class="gui-input size-sm">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gui-cols grow-equal spacing-md">
+                <span ui-id="playtabClose" class="gui-button primary">BACK</span>
+            </div>
+        </div>
+        <!-- HOME TAB -->
+        <div class="gui-rows spacing-md" ui-id="tabHome">
+            <div class="gui-cols spacing-md">
+                <div class="gui-rows">
+                    <div class="gui-form-divide min-medium-screen">
+                        <span ui-id="shop" class="gui-button gold">SHOP</span>
+                    </div>
+                    <div ui-id="armory" class="hero-block gui-clickable">
+                        <div ui-id="itemPromo" class="item-promo" style="margin-left: 16px; height: 60px; width: 60px; display: none;" tooltip="Enter the armory to change your hat and weapon"></div>
+                        <div ui-id="heroSprite" class="style-2" style="height: calc(32px + 10vh); width: calc(32px + 10vh);  margin: 6px 0 0 6px; " tooltip="Enter the armory to change your hat and weapon"></div>
+                    </div>
+                    <div class="gui-rows spacing-sm">
+                        <div ui-id="gender" class="gui-cycle gui-button secondary" style="margin-top: 12px; width: 100%;">
+                            <span ui-value="0">{lang:gender/male}</span>
+                            <span ui-value="1">{lang:gender/female}</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- LOGIN -->
+                <div ui-id="loginPanel" class="spacing-md gui-rows">
+                    <div class="gui-form-divide">
+                        <span ui-id="login" class="gui-button primary">{lang:login}</span>
+                    </div>
+                    <p ui-id="login">{lang:login_info}</p>
+                    <div ui-id="loginReminder" class="reminder">Login to join the guild</div>
+                </div>
+                <div ui-id="logoutPanel" class="gui-rows spacing-md grow auto-basis">
+                    <div class="gui-cols spacing-md space-between align-center" ui-id="logoutSection">
+                        <span ui-id="autoLogin" class="gui-checkbox" tooltip="Rememeber your account and login automatically. Don't use this on a public computer.">AUTO LOGIN</span>
+                        <span ui-id="logout" class="gui-button primary toned size-sm">LOGOUT <i class="icon mdi mdi-logout"></i></span>
+                    </div>
+                    <div class="gui-cols">
+                        <input ui-id="name" type="text" placeholder="Name" class="gui-input size-sm grow-5">
+                        <div class="grow-1" ui-id="countryPlaceholder"></div>
+                    </div>
+                    <div class="grow"></div>
+                </div>
+            </div>
+            <div class="frame-board gui-cols grow-equal spacing-md">
+                <span ui-id="playInvitationLink" class="gui-button green">JOIN GAME</span>
+                <span ui-id="watchtab" tooltip="Spectate ranked matches" class="gui-button">WATCH</span>
+                <span ui-id="playtab" class="gui-button super grow-2">{lang:play}</span>
+                <span ui-id="moreGames" tooltip="More games by rezoner" class="gui-button blue">MORE</span>
+            </div>
+            <a ui-id="facebookShare" style="display:none" class="gui-button size-sm stretch just-center facebook" title="Login using Facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A//wilds.io?ref=fbshare">
+                <i class="icon socicon-facebook"></i>
+                <span>Share on Facebook and get 100</span>
+                <img src="images/patreon_icon_old.png" class="coin" width="16" style="margin-left: 8px">
+            </a>
+            <span class="gui-form-divide min-medium-screen">Quests</span>
+            <div ui-id="quests" class="quests gui-cols grow-1 grow-equal spacing-md auto-basis"></div>
+            
+        </div>
+    </div>
+</div>

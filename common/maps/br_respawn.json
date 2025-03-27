@@ -1,0 +1,16 @@
+{
+    "map":
+    {},
+    "entities": [
+    {
+        "key": "respawnD",
+        "x": -52,
+        "y": -48
+    }],
+    "meta":
+    {
+        "padding": 2,
+        "innerWidth": 500,
+        "innerHeight": 500
+    }
+}

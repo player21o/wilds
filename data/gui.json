@@ -1,0 +1,14 @@
+{
+
+  "scrollbarHandleSprite": [302, 12, 8, 19],
+
+  "borders": {
+
+    "gray": {
+      "region": [28, 0, 26, 26],
+      "padding": 4
+    }
+
+  }
+
+}

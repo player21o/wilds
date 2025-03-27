@@ -1,0 +1,48 @@
+<div class="gui-rows spacing-md just-center align-center grow">
+
+<div style="max-width: 800px;" class="gui-rows spacing-md">
+
+  <div class="gui-rows spacing-md admin">
+
+    <div class="gui-form-divide">Is this a public tribe?</div>
+
+    <span>If the tribe is marked as public it will appear on a public list where anyone can join it.</span>
+
+    <span ui-id="isPublic">Public tribe</span>
+
+    <div class="gui-form-divide">Public tribe description</div>
+
+    <textarea class="code-editor" ui-id="description" maxlength="512"></textarea>
+
+    <div class="gui-form-divide">One time link</div>
+
+    <span>This is a private link. It can only be used once. After someone joins the guild through this link - it is no longer valid. It also expires after a week.</span>
+
+    <div class="gui-cols spacing-md grow-equal">
+
+      <input ui-id="privateLink" type=text placeholder="invitation link" class="gui-input size-md grow-2" />
+      
+      <span ui-id="renewPrivateLink" class="gui-button">NEW PRIVATE LINK</span>    
+
+    </div>
+
+    <div class="gui-form-divide">Public link</div>
+    
+    <span>This is a public link. Anyone can join your guild through this link. It's valid as long as you don't generate a new public link.</span>
+
+    <div class="gui-cols spacing-md grow-equal">
+
+      <input ui-id="publicLink" type=text placeholder="invitation link" class="gui-input size-md grow-2" />
+      <span ui-id="renewPublicLink" class="gui-button">NEW PUBLIC LINK</span>    
+
+    </div>
+
+  </div>
+
+  <div class="gui-form-divide">Leave the tribe</div>
+
+  <span class="gui-button" ui-id="leaveTribe">Leave tribe</span>    
+
+</div>
+
+</div>

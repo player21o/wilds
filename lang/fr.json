@@ -1,0 +1,25 @@
+{
+  "back": "retour",
+  "buy": "acheter",
+  "equip": "équiper",
+  "error/not_logged_in": "Vous devez être connecté.<br> Revenez au menu principal et connectez-vous.",
+  "matchmaking_group": "votre groupe",
+  "login_with": "connexion au compte",
+  "armory": "arsenal",
+  "server": "serveur",
+  "play": "jouer",
+  "settings": "paramètres",
+  "gender": "le genre",
+  "gender/male": "homme",
+  "gender/female": "femme",
+  "mode": "mode",
+  "mode/0": "ruines",
+  "mode/1": "3 contre 3",
+  "mode/2": "piłkarzyki",
+  "mode/3": "drapeau",
+  "mode/4": "arène 1 contre 1",
+  "mode/5": "entraînement",
+  "players_in_game": "joueurs en jeu",
+  "players_in_queue": "joueurs en file d'attente"
+
+}

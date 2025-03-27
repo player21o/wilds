@@ -1,0 +1,32 @@
+<div class="leaderboards-window window style-1 gui-rows spacing-md scroll ui">
+
+  <div ui-id=mode class="gui-toggles size-sm gui-cols grow-equal">
+    <span style="display:none" ui-value="flags">CTF</span>
+    <span ui-value="arena_mmr">ARENA</span>
+    <span ui-value="bones">BONES</span>
+    <span ui-value="goals">SOCCER</span>
+    <span style="display:none" ui-value="graveyard_score">GRAVEYARD</span>
+  </div>
+
+  <p ui-id="loose">To keep the leaderboards fresh everyone loses 1% of the score every day.</p>
+
+  <div ui-id=list class=results>
+
+    <table>
+
+    <tr>
+      <th>score</th>
+      <th>name</th>
+    </tr>
+
+    <tr ui-id=rowTemplate>
+      <td class=score>score</td>
+      <td class=name>name</td>
+    </tr>
+
+    </table>
+
+  </div>  
+
+
+</div>

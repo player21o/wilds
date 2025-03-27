@@ -1,0 +1,338 @@
+<!doctype html>
+<html>
+<head>
+<title>Wilds.io gui</title>
+<meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link rel="shortcut icon" href="/favicon.ico">
+<link href="./gui.css" rel="stylesheet">
+<style>
+    /*@import url(gui.css);*/
+    @import url(../main.css);
+  </style>
+<script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+</head>
+<body class="page-gui">
+<h3 class="preview-title">Styles</h3>
+<div class="style-preview gui-cols space-around wrap">
+<div class="style-1">test some style 1</div>
+<div class="style-2">test some style 2</div>
+<div class="style-3">test some style 3</div>
+<div class="style-4">test some style 4</div>
+<div class="style-4 primary">test some style 4</div>
+<div class="style-4 primary toned">test some style 4</div>
+<div class="style-4 patreon">test some style 4</div>
+<div class="style-4 facebook">test some style 4</div>
+<div class="style-5">test some style 5</div>
+<div class="style-6">test some style 6</div>
+<div class="style-7">test some style 7</div>
+<div class="style-8">test some style 8</div>
+<div class="style-9">test some style 9</div>
+<div class="style-10">test some style 10</div>
+<div class="style-11">test some style 11</div>
+<div class="style-12">test some style 12</div>
+<div class="style-12 active">test some style 12</div>
+<div class="style-13">test some style 13</div>
+<div class="style-13 spark">test some blink 13</div>
+<div class="style-13 facebook">test some style 13</div>
+<div class="style-13 twitter">test some style 13</div>
+<div class="style-13 discord">test some style 13</div>
+<div class="style-14">test some style 14</div>
+<div class="style-15">test some style 15</div>
+<div class="style-16">test some style 16</div>
+<div class="style-17">test some style 17</div>
+<div class="style-18">test some style 18</div>
+<div class="style-19">test some style 19</div>
+<div class="style-20">test some style 20</div>
+</div>
+<h3 class="preview-title">Components</h3>
+<div class="component-preview">
+<div>
+<div class="gui-progressbar size-md">
+<div style="width: 60%"></div>
+</div>
+</div>
+<div>
+<input class="gui-input size-md" placeholder="input text">
+</div>
+<div>
+<div class="gui-button size-md primary">primary button</div>
+</div>
+<div>
+<div class="gui-button size-md patreon">
+<i class="icon socicon-patreon"></i>
+patreon button
+</div>
+</div>
+<div>
+<div class="gui-button size-md facebook">
+<i class="icon socicon-facebook"></i>
+<span>facebook button</span>
+</div>
+</div>
+<div>
+<div class="gui-flatbtn subtexted" style="height: 100px;">
+<span class="flat-label">test some style 13</span>
+<span class="flat-subtext">some text</span>
+</div>
+</div>
+<div>
+<div class="gui-flatbtn facebook">
+<span class="flat-label"><i class="icon mdi mdi-facebook"></i></span>
+</div>
+</div>
+<div>
+<div class="gui-flatbtn twitter">
+<span class="flat-label"><i class="icon mdi mdi-twitter"></i></span>
+</div>
+</div>
+<div>
+<div class="gui-flatbtn subtexted discord">
+<span class="flat-label"><i class="icon mdi mdi-discord"></i></span>
+<span class="flat-subtext">some text</span>
+</div>
+</div>
+<div>
+<span class="gui-checkbox">AUTO LOGIN</span>
+<span class="gui-checkbox checked">AUTO LOGIN</span>
+</div>
+<div>
+<div class="gui-form-divide">form divide</div>
+</div>
+<div>
+<div class="gui-marker">some text</div>
+</div>
+<div>
+<div class="gui-sublabel">soGOLDme text</div>
+</div>
+<div>
+<div class="gui-toggles size-md gui-cols grow-equal">
+<div class="active">toggle</div>
+<div><i class="icon mdi mdi-discord"></i> toggle</div>
+<div>toggle</div>
+</div>
+</div>
+<div class="gui-cols spacing-md">
+<div class="grow">
+<input class="gui-input size-md" placeholder="input text">
+</div>
+<div>
+<div class="gui-button size-md primary">primary button</div>
+</div>
+</div>
+<div>
+</div>
+</div>
+<h3 class="preview-title">Layouts</h3>
+<div class="layout-preview">
+<h4 class="prev-divider">rows <small>(default: space-between)</small></h4>
+<div>
+<div class="gui-rows space-start" style="width: 200px; height: 200px;">
+<div>row</div>
+<div>row</div>
+<div>row</div>
+</div>
+</div>
+<div>
+<div class="gui-rows space-center" style="width: 200px; height: 200px;">
+<div>row</div>
+<div>row</div>
+<div>row</div>
+</div>
+</div>
+<div>
+<div class="gui-rows space-between" style="width: 200px; height: 200px;">
+<div>row</div>
+<div>row</div>
+<div>row</div>
+</div>
+</div>
+<div>
+<div class="gui-rows space-around" style="width: 200px; height: 200px;">
+<div>row</div>
+<div>row</div>
+<div>row</div>
+</div>
+</div>
+<div>
+<div class="gui-rows space-end" style="width: 200px; height: 200px;">
+<div>row</div>
+<div>row</div>
+<div>row</div>
+</div>
+</div>
+<h4 class="prev-divider">cols <small>(default: space-between)</small></h4>
+<div>
+<div class="gui-cols space-start" style="width: 200px; height: 200px;">
+<div>col</div>
+<div>col</div>
+<div>col</div>
+</div>
+</div>
+<div>
+<div class="gui-cols space-center" style="width: 200px; height: 200px;">
+<div>col</div>
+<div>col</div>
+<div>col</div>
+</div>
+</div>
+<div>
+<div class="gui-cols space-between" style="width: 200px; height: 200px;">
+<div>col</div>
+<div>col</div>
+<div>col</div>
+</div>
+</div>
+<div>
+<div class="gui-cols space-around" style="width: 200px; height: 200px;">
+<div>col</div>
+<div>col</div>
+<div>col</div>
+</div>
+</div>
+<div>
+<div class="gui-cols space-end" style="width: 200px; height: 200px;">
+<div>col</div>
+<div>col</div>
+<div>col</div>
+</div>
+</div>
+<h4 class="prev-divider">grows <small>(default: none)</small></h4>
+<div>
+<div class="gui-rows" style="width: 200px; height: 200px;">
+<div>none</div>
+<div>none</div>
+<div>none</div>
+</div>
+</div>
+<div>
+<div class="gui-rows" style="width: 200px; height: 200px;">
+<div>row</div>
+<div class="grow">grow</div>
+<div>row</div>
+</div>
+</div>
+<div>
+<div class="gui-rows grow-equal" style="width: 200px; height: 200px;">
+<div>equal</div>
+<div>equal</div>
+<div>equal</div>
+</div>
+</div>
+<div>
+<div class="gui-cols" style="width: 200px; height: 200px;">
+<div>none</div>
+<div>none</div>
+<div>none</div>
+</div>
+</div>
+<div>
+<div class="gui-cols" style="width: 200px; height: 200px;">
+<div>col</div>
+<div class="grow">grow</div>
+<div>col</div>
+</div>
+</div>
+<div>
+<div class="gui-cols grow-equal" style="width: 200px; height: 200px;">
+<div>equal</div>
+<div>equal</div>
+<div>equal</div>
+</div>
+</div>
+<h4 class="prev-divider">aligns <small>(default: none)</small></h4>
+<div>
+<div class="gui-cols" style="width: 150px; height: 200px;">
+<div>none</div>
+<div>none</div>
+<div>none</div>
+</div>
+</div>
+<div>
+<div class="gui-cols align-start" style="width: 150px; height: 200px;">
+<div>col</div>
+<div>col</div>
+<div>col</div>
+</div>
+</div>
+<div>
+<div class="gui-cols align-center" style="width: 150px; height: 200px;">
+<div>col</div>
+<div>col</div>
+<div>col</div>
+</div>
+</div>
+<div>
+<div class="gui-cols align-end" style="width: 150px; height: 200px;">
+<div>col</div>
+<div>col</div>
+<div>col</div>
+</div>
+</div>
+<div>
+<div class="gui-rows" style="width: 150px; height: 200px;">
+<div>none</div>
+<div>none</div>
+<div>none</div>
+</div>
+</div>
+<div>
+<div class="gui-rows align-start" style="width: 150px; height: 200px;">
+<div>row</div>
+<div>row</div>
+<div>row</div>
+</div>
+</div>
+<div>
+<div class="gui-rows align-center" style="width: 150px; height: 200px;">
+<div>row</div>
+<div>row</div>
+<div>row</div>
+</div>
+</div>
+<div>
+<div class="gui-rows align-end" style="width: 150px; height: 200px;">
+<div>row</div>
+<div>row</div>
+<div>row</div>
+</div>
+</div>
+<h4 class="prev-divider">combined <small>(all defaults)</small></h4>
+<div>
+<div class="gui-rows" style="width: 200px; height: 200px;">
+<div class="gui-cols">
+<div>col</div>
+<div>col</div>
+<div>col</div>
+</div>
+<div class="gui-cols">
+<div>col</div>
+<div>col</div>
+<div>col</div>
+</div>
+<div class="gui-cols">
+<div>col</div>
+<div>col</div>
+<div>col</div>
+</div>
+</div>
+</div>
+<h4 class="prev-divider">spacing <small>(default: none)</small></h4>
+<div>
+<div class="gui-rows spacing-md" style="width: 200px; height: 200px;">
+<div>row</div>
+<div class="grow">grow</div>
+<div>row</div>
+</div>
+</div>
+<div>
+<div class="gui-cols spacing-md" style="width: 200px; height: 200px;">
+<div>row</div>
+<div class="grow">grow</div>
+<div>row</div>
+</div>
+</div>
+</div>
+<script src="./gui.js"></script>
+<script src="http://localhost:35729/livereload.js"></script>
+</body>
+</html>

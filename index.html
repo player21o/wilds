@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<title>Wilds.io</title>
+<meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta property="og:title" content="Wilds.io">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta property="og:description" content="Multiplayer skill based game with a deep melee combat and RPG elements. Loot your enemies for gold and buy new equipment. Join a guild and win reputation fighting on arena." />
+<meta property="fb:app_id" content="965055083615420" />
+<meta property="og:image" content="http://wilds.io/thumb6.png">
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<link rel="shortcut icon" href="/favicon.ico">
+<style>
+    
+    @import url("templates/gui.css");
+    
+    @import url("main.css");
+    @import url("templates/css/opentip.css");
+
+  </style>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+<a id="emergency-login">Alternative login button</a>
+<section style="display: none">
+Wilds.io is a multiplayer <b>videogame</b> with elements of roleplaying (RPG) game and arcade action fighting. Technology used behind the game is javascript, html5 and node.js. It's not yet playable on mobile smartphones or tablets. Programming and most of graphics has been done by one computer person.
+</section>
+<span id="disableMusic">&#9834;</span>
+<div id="mute" class="gui-button topicon" tooltip="Click to mute. Use mouse wheel to adjust volume."><img src="templates/images/sound.png"><div class="volume"></div></div>
+<div id="zoomOut" class="gui-button  topicon"><img src="templates/images/zoom_out.png"></div>
+<div id="zoomIn" class="gui-button  topicon"><img src="templates/images/zoom_in.png"></div>
+<div id="fullscreen">
+<img src="images/fullscreen.png">
+<div class="content">FULLSCREEN</div>
+</div>
+<div id="gui" class="gui-cols"></div>
+<script src="env.js"></script>
+<script src="bin/script.js"></script>
+<script src="templates/gui.js"></script>
+
+<script src="script/arapi.js?1497126312000"></script>
+<div id="promo"><iframe src="https://spritestack.io/promo/?display_source=wildsio"></iframe></div>
+</body>
+</html>

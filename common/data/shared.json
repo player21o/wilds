@@ -1,0 +1,457 @@
+{
+    "PlayerPrivateData": [
+
+        ["items", "object"],
+        ["stamina", "sfloat"],
+        ["temperature", "sfloat"],
+        ["cooldowns", "object"],
+        ["gold_cap", "int"],
+        ["gold_inc", "int"],
+        ["interactor_sid", "int"],
+        ["exp", "int"]
+
+    ],
+
+    "Game": [
+
+        ["weather", "key"]
+
+    ],
+
+    "battle_royale": [
+
+        ["eclipseRadius", "int"]
+
+    ],
+
+    "fun": [
+
+        ["eclipseRadius", "int"]
+
+    ],
+
+
+    "arena1": [
+
+        ["eclipseRadius", "int"]
+
+    ],
+
+    "coins": [
+
+        ["x", "int"],
+        ["y", "int"],
+        ["follow", "int"],
+        ["amount", "int"]
+
+    ],
+
+
+    "mapReplaceTile": [
+
+        ["x", "int"],
+        ["y", "int"],
+        ["layer", "key"],
+        ["key", "int"]
+
+    ],
+
+    "Rope": [
+        ["sid", "always"],
+        ["constructorName", "key"],
+        ["remove", "bool", "_remove"],
+        ["x", "int"],
+        ["y", "int"],
+        ["ex", "int"],
+        ["ey", "int"]
+    ],
+
+    "DebugPoint": [
+        ["sid", "always"],
+        ["constructorName", "key"],
+        ["remove", "bool", "_remove"],
+        ["x", "int"],
+        ["y", "int"],
+        ["color", "int"]
+    ],
+
+    "Tree": [
+        ["sid", "always"],
+        ["constructorName", "key"],
+        ["remove", "bool", "_remove"],
+        ["x", "int"],
+        ["y", "int"],
+        ["health", "int"],
+        ["pine", "bool"]
+    ],
+
+    "Obstacle": [
+        ["sid", "always"],
+        ["constructorName", "key"],
+        ["remove", "bool", "_remove"],
+        ["x", "int"],
+        ["y", "int"],
+        ["key", "int"],
+        ["type", "key"]
+    ],
+
+    "Citizen": [
+
+        ["sid", "always"],
+        ["constructorName", "key"],
+        ["remove", "bool", "_remove"],
+        ["x", "int"],
+        ["y", "int"],
+        ["key", "key"],
+        ["growling", "bool"],
+        ["moving", "int"],
+        ["stateQueue", "queue"],
+        ["direction", "sfloat"],
+        ["kills", "int"],
+        ["team", "int"],
+        ["name", "string"],
+        ["dead", "bool"],
+        ["health", "sfloat"],
+        ["maxHealth", "int"],
+        ["armor", "int"],
+        ["score", "int"],
+        ["flag", "string"],
+        ["kind", "string"],
+        ["frozen", "float"],
+        ["gameLink", "int"],
+        ["weapon", "key"],
+        ["helmet", "key"],
+        ["shield", "key"],
+        ["voice", "key"],
+        ["badges", "object"],
+        ["cape", "key"],
+        ["partner_sid", "int"]
+    ],
+
+    "Monster": [
+
+        ["sid", "always"],
+        ["constructorName", "key"],
+        ["remove", "bool", "_remove"],
+        ["x", "int"],
+        ["y", "int"],
+        ["health", "int"],
+        ["type", "string"],
+        ["stateKey", "string"],
+        ["direction", "float"],
+        ["dead", "bool"]
+
+    ],
+
+    "Animal": [
+
+        ["sid", "always"],
+        ["constructorName", "key"],
+        ["remove", "bool", "_remove"],
+        ["x", "int"],
+        ["y", "int"],
+        ["type", "string"],
+        ["stateKey", "string"],
+        ["direction", "float"],
+        ["dead", "bool"]
+
+    ],
+
+    "Sandworm": [
+
+        ["sid", "always"],
+        ["constructorName", "key"],
+        ["remove", "bool", "_remove"],
+        ["x", "int"],
+        ["y", "int"],
+        ["stateQueue", "queue"]
+
+    ],
+
+    "Pedestal": [
+        ["sid", "always"],
+        ["constructorName", "key"],
+        ["remove", "bool", "_remove"],
+        ["x", "int"],
+        ["y", "int"]
+    ],
+
+    "Campfire": [
+        ["sid", "always"],
+        ["constructorName", "key"],
+        ["remove", "bool", "_remove"],
+        ["x", "int"],
+        ["y", "int"],
+        ["health", "int"]
+    ],
+
+    "FlagBase": [
+        ["sid", "always"],
+        ["constructorName", "key"],
+        ["remove", "bool", "_remove"],
+        ["x", "int"],
+        ["y", "int"],
+        ["team", "int"]
+    ],
+
+    "ClaimableFlag": [
+        ["sid", "always"],
+        ["constructorName", "key"],
+        ["remove", "bool", "_remove"],
+        ["x", "int"],
+        ["y", "int"],
+        ["team", "int"],
+        ["a", "float"],
+        ["b", "float"]
+    ],
+
+    "Gate": [
+        ["sid", "always"],
+        ["constructorName", "key"],
+        ["remove", "bool", "_remove"],
+        ["x", "int"],
+        ["y", "int"],
+        ["team", "int"],
+        ["state", "int"],
+        ["health", "int"]
+    ],
+
+    "FortFlag": [
+        ["sid", "always"],
+        ["constructorName", "key"],
+        ["remove", "bool", "_remove"],
+        ["x", "int"],
+        ["y", "int"],
+        ["team", "int"]
+    ],
+
+    "Flag": [
+        ["sid", "always"],
+        ["constructorName", "key"],
+        ["remove", "bool", "_remove"],
+        ["x", "int"],
+        ["y", "int"],
+        ["team", "int"],
+        ["parent_sid", "int"],
+        ["status", "key"]
+    ],
+
+    "Crate": [
+        ["sid", "always"],
+        ["constructorName", "key"],
+        ["remove", "bool", "_remove"],
+        ["x", "int"],
+        ["y", "int"],
+        ["key", "int"],
+        ["dead", "bool"]
+    ],
+
+    "Guillotine": [
+        ["sid", "always"],
+        ["constructorName", "key"],
+        ["remove", "bool", "_remove"],
+        ["x", "int"],
+        ["y", "int"],
+        ["key", "int"],
+        ["closed", "bool"],
+        ["dirty", "bool"]
+    ],
+
+    "Spikes": [
+        ["sid", "always"],
+        ["constructorName", "key"],
+        ["remove", "bool", "_remove"],
+        ["x", "int"],
+        ["y", "int"],
+        ["key", "int"],
+        ["closed", "bool"],
+        ["dirty", "bool"]
+    ],
+
+    "Quicksand": [
+        ["sid", "always"],
+        ["constructorName", "key"],
+        ["remove", "bool", "_remove"],
+        ["x", "int"],
+        ["y", "int"],
+        ["radius", "int"]
+    ],
+
+    "ThrowingKnife": [
+        ["sid", "always"],
+        ["constructorName", "key"],
+        ["remove", "bool", "_remove"],
+        ["x", "int", "sharedx"],
+        ["y", "int", "sharedy"],
+        ["speed", "int"],
+        ["team", "int"],
+        ["key", "key"],
+        ["direction", "float"]
+    ],
+
+    "Projectile": [
+        ["sid", "always"],
+        ["constructorName", "key"],
+        ["remove", "bool", "_remove"],
+        ["x", "int"],
+        ["y", "int"],
+        ["speed", "int"],
+        ["key", "key"],
+        ["direction", "float"]
+    ],
+
+    "Wave": [
+        ["sid", "always"],
+        ["constructorName", "key"],
+        ["remove", "bool", "_remove"],
+        ["x", "int"],
+        ["y", "int"],
+        ["direction", "float"],
+        ["speed", "int"],
+        ["duration", "int"]
+    ],
+
+    "Pickup": [
+        ["sid", "always"],
+        ["constructorName", "key"],
+        ["remove", "bool", "_remove"],
+        ["x", "int"],
+        ["y", "int"],
+        ["sx", "int"],
+        ["sy", "int"],
+        ["key", "string"]
+    ],
+
+    "Stone": [
+        ["sid", "always"],
+        ["constructorName", "key"],
+        ["remove", "bool", "_remove"],
+        ["x", "int"],
+        ["y", "int"],
+        ["key", "string"],
+        ["dead", "bool"]
+    ],
+
+    "Mine": [
+        ["sid", "always"],
+        ["constructorName", "key"],
+        ["remove", "bool", "_remove"],
+        ["exploded", "bool"],
+        ["x", "int"],
+        ["y", "int"],
+        ["timeout", "float"],
+        ["range", "int"]
+    ],
+
+    "Ball": [
+        ["sid", "always"],
+        ["constructorName", "key"],
+        ["remove", "bool", "_remove"],
+        ["x", "int"],
+        ["y", "int"],
+        ["z", "int"]
+    ],
+
+    "SoccerGoalLine": [
+        ["sid", "always"],
+        ["constructorName", "key"],
+        ["remove", "bool", "_remove"],
+        ["x", "int"],
+        ["y", "int"],
+        ["width", "int"],
+        ["height", "int"],
+        ["team", "int"],
+        ["orientation", "int"]
+    ],
+
+    "Beam": [
+
+        ["sid", "always"],
+        ["constructorName", "key"],
+        ["remove", "bool", "_remove"],
+        ["x", "int"],
+        ["y", "int"],
+        ["target_sid", "int"],
+        ["length", "int"],
+        ["direction", "float"],
+        ["key", "key"],
+        ["team", "int"]
+
+    ],
+
+    "Grenade": [
+        ["sid", "always"],
+        ["constructorName", "key"],
+        ["remove", "bool", "_remove"],
+        ["x", "int"],
+        ["y", "int"],
+        ["exploded", "bool"],
+        ["targetX", "int"],
+        ["targetY", "int"],
+        ["parent_sid", "int"],
+        ["key", "key"],
+        ["delay", "float"],
+        ["speed", "float"],
+        ["hits", "object"]
+    ],
+
+
+    "Container": [
+        ["sid", "always"],
+        ["constructorName", "key"],
+        ["remove", "bool", "_remove"],
+        ["x", "int"],
+        ["y", "int"],
+        ["serialized", "object"],
+        ["key", "key"],
+        ["locked", "boolean"]
+    ],
+
+    "Door": [
+        ["sid", "always"],
+        ["constructorName", "key"],
+        ["remove", "bool", "_remove"],
+        ["x", "int"],
+        ["y", "int"],
+        ["locked", "boolean"],
+        ["team", "int"]
+    ],
+
+    "Stove": [
+        ["sid", "always"],
+        ["constructorName", "key"],
+        ["remove", "bool", "_remove"],
+        ["x", "int"],
+        ["y", "int"],
+        ["health", "int"]
+    ],
+
+    "Marker": [
+        ["sid", "always"],
+        ["constructorName", "key"],
+        ["remove", "bool", "_remove"],
+        ["x", "int"],
+        ["y", "int"],
+        ["marker", "key"],
+        ["globalMarker", "bool"],
+        ["markerText", "string"]
+
+    ],
+
+    "Hit": [
+        ["armor", "int"],
+        ["projectile_sid", "int"],
+        ["entity_sid", "int"],
+        ["attacker_sid", "int"],
+        ["kick", "boolean"],
+        ["missile", "boolean"],
+        ["blocked", "boolean"],
+        ["damage", "float"],
+        ["fall", "boolean"],
+        ["stun", "boolean"],
+        ["crush", "boolean"],
+        ["fatal", "boolean"],
+        ["reverse", "boolean"],
+        ["blockBroken", "boolean"]
+    ]
+}

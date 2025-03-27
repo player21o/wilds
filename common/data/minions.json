@@ -1,0 +1,228 @@
+{
+
+    "default":
+    {
+        "attackDuration": 1.5,
+        "damage": 1.0,
+        "fixedDamage": 0.0,
+        "bodyScale": 1.0,
+        "weapon": "axe",
+        "maxArmor": 6,
+        "helmet": "no_helmet",
+        "shield": "shield_wooden",
+        "cape": "no_cape",
+        "speed": 150,
+        "staminaUsage": 0.3,
+        "block_duration": 1.0,
+        "roll_duration": 0.8,
+        "kick_duration": 0.8,
+        "fall_duration": 1.0,
+        "jump_duration": 1.0,
+        "fall_recovery": 1.4,
+        "maxHealth": 8,
+        "heavy": false,
+        "height": 1.0,
+        "pitch": 1.0
+    },
+
+    "hero":
+    {
+        "attackDuration": 1.0
+    },
+
+    "companion":
+    {
+        "maxHealth": 5,
+        "bodyScale": 0.75
+    },
+
+    "barbarian":
+    {
+        "pitch": 1.5,
+        "team": 3
+
+    },
+
+    "barbarian_sentry":
+    {
+        "fall_recovery": 1.6,
+        "bodyScale": 0.75,
+        "helmet": "no_helmet",
+        "weapon": "club",
+        "shield": "no_shield",
+        "maxHealth": 6,
+        "speed": 80,
+        "exp": 5,
+        "maybeLoot":
+        {
+            "wood": 0.5,
+            "club": 0.1
+        }
+    },
+
+    "barbarian_miner":
+    {
+        "fall_recovery": 1.6,
+        "bodyScale": 0.8,
+        "fixedDamage": 1.0,
+        "helmet": "no_helmet",
+        "weapon": "hammer",
+        "shield": "no_shield",
+        "maxHealth": 6,
+        "speed": 80,
+        "exp": 10,
+        "maybeLoot":
+        {
+            "stone": 0.5,
+            "wood": 0.5
+        }
+    },
+
+
+    "barbarian_saper":
+    {
+        "fall_recovery": 1.0,
+        "bodyScale": 0.8,
+        "helmet": "no_helmet",
+        "weapon": false,
+        "shield": "no_shield",
+        "cape": "backpack",
+        "maxHealth": 6,
+        "speed": 120,
+        "exp": 10,
+        "maybeLoot":
+        {
+            "mine": 1.0,
+            "rock": 0.5
+        }
+    },
+
+    "barbarian_giant":
+    {
+        "heavy": true,
+        "fall_recovery": 2.0,
+        "fixedDamage": 2.0,
+        "bodyScale": 1.5,
+        "helmet": "no_helmet",
+        "weapon": "club",
+        "shield": "no_shield",
+        "maxHealth": 20,
+        "speed": 60,
+        "exp": 20,
+        "pitch": 0.5,
+        "maybeLoot":
+        {
+            "hammer": 0.1,
+            "key": 1.0
+        }
+    },
+
+    "orc":
+    {
+        "pitch": 0.75,
+        "team": 4
+    },
+
+    "orc_grunt":
+    {
+        "fall_recovery": 1.6,
+        "helmet": "elf_ears",
+        "weapon": "axe",
+        "maxHealth": 6
+    },
+
+    "orc_warrior":
+    {
+        "fall_recovery": 1.6,
+        "bodyScale": 0.9,
+        "helmet": "viking_helmet",
+        "weapon": "axe",
+        "shield": "shield_usa",
+        "maxHealth": 6,
+        "speed": 100,
+        "exp": 5,
+        "maybeLoot":
+        {
+            "key": 0.25,
+            "wood": 0.5
+        }
+    },
+
+    "orc_commander":
+    {
+        "fall_recovery": 1.6,
+        "bodyScale": 1.25,
+        "helmet": "elf_ears",
+        "weapon": "golden_axe",
+        "shield": "shield_heavy",
+        "maxHealth": 12,
+        "armor": 2,
+        "speed": 90,
+        "exp": 25,
+        "loot": ["key"],
+        "heavy": true,
+
+        "maybeLoot":
+        {
+            "key": 1.0,
+            "golden_axe": 0.1,
+            "armor": 1.0
+
+        }
+    },
+
+    "orc_berserker":
+    {
+        "fall_recovery": 1.6,
+        "helmet": "elf_ears",
+        "cape": "mohawk_hair",
+        "shield": "no_shield",
+        "weapon": "double_axe",
+        "maxHealth": 8,
+        "speed": 120,
+        "exp": 10,
+        "maybeLoot":
+        {
+            "key": 0.25,
+            "wood": 0.25,
+            "double_axe": 0.1
+        }
+
+    },
+
+    "orc_tank":
+    {
+        "fall_recovery": 1.6,
+        "helmet": "elf_ears",
+        "shield": "shield_heavy",
+        "armor": 6,
+        "weapon": "hammer",
+        "maxHealth": 6,
+        "speed": 80,
+        "exp": 10,
+        "maybeLoot":
+        {
+            "key": 0.1,
+            "wood": 0.25,
+            "armor": 1.0
+        }
+
+    },
+
+
+    "orc_archer":
+    {
+        "fall_recovery": 1.6,
+        "helmet": "hood",
+        "shield": "no_shield",
+        "weapon": "bow",
+        "maxHealth": 4,
+        "speed": 120,
+        "exp": 10,
+        "loot": ["key", "wood"],
+        "maybeLoot":
+        {
+            "bow": 0.1
+        }
+    }
+}

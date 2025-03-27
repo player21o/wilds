@@ -1,0 +1,166 @@
+{
+
+    "offensive": ["attack", "spell1"],
+    "offensiveFallen": [],
+    "counterAttack": ["block", "kick", "roll", "attack"],
+    "counterRolling": ["kick", "attack"],
+    "counterChase": ["spell1", "attack"],
+    "counterBlock": ["roll", "attack"],
+    "chase": ["spell1"],
+
+    "block":
+    {
+
+        "icon": 0,
+        "cooldown": 1.8,
+        "type": "defensive"
+
+    },
+
+    "roll":
+    {
+
+        "icon": 0,
+        "cooldown": 1.0,
+        "type": "defensive"
+
+    },
+
+    "kick":
+    {
+
+        "icon": 0,
+        "cooldown": 1.8,
+        "type": "defensive"
+
+    },
+
+    "gust":
+    {
+
+        "icon": 0,
+        "cooldown": 12,
+        "type": "wave"
+
+    },
+
+    "stun":
+    {
+
+        "icon": 0,
+        "cooldown": 10.0,
+        "type": "wave"
+
+    },
+
+    "massPull":
+    {
+
+        "icon": 4,
+        "cooldown": 12,
+        "type": "wave"
+
+    },
+
+    "poleVault":
+    {
+
+        "icon": 0,
+        "cooldown": 15,
+        "type": "defensive"
+
+    },
+
+    "tear":
+    {
+
+        "icon": 0,
+        "cooldown": 12,
+        "type": "offensive"
+
+    },
+
+    "swirl":
+    {
+
+        "icon": 1,
+        "cooldown": 15,
+        "type": "charge"
+
+    },
+
+
+    "piercingArrow":
+    {
+
+        "icon": 2,
+        "cooldown": 12,
+        "type": "charge"
+
+    },
+
+    "iceBolt":
+    {
+
+        "icon": 3,
+        "cooldown": 12,
+        "type": "charge"
+
+    },
+
+
+    "swap":
+    {
+
+        "icon": 1,
+        "cooldown": 2,
+        "type": "charge"
+
+    },
+
+    "powerHit":
+    {
+
+        "icon": 0,
+        "cooldown": 14,
+        "type": "charge"
+
+    },
+
+    "iceBlast":
+    {
+
+        "icon": 0,
+        "cooldown": 1,
+        "type": "charge"
+
+    },
+
+    "lunge":
+    {
+
+        "icon": 0,
+        "cooldown": 0.25,
+        "type": "charge"
+
+    },
+
+    "fury":
+    {
+
+        "icon": 0,
+        "cooldown": 1.0,
+        "type": "charge"
+
+    },
+
+    "focus":
+    {
+
+        "icon": 0,
+        "cooldown": 12.0,
+        "type": "charge"
+
+    }
+
+}

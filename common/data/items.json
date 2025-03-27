@@ -1,0 +1,311 @@
+{
+
+    "easter_egg":
+    {
+        "pickup_sound": "bone",
+        "randomFrame": true
+    },
+
+    "rope":
+    {
+        "pickup_sound": "mine",
+        "containable": true,
+        "value": 2
+    },
+
+    "potion_mirage":
+    {
+        "pickup_sound": "bottle",
+        "containable": true,
+        "value": 3
+    },
+
+    "mine":
+    {
+        "pickup_sound": "mine",
+        "containable": true,
+        "value": 2
+    },
+
+    "potion_health":
+    {
+        "pickup_sound": "bottle",
+        "containable": true,
+        "value": 2
+    },
+
+    "potion_stamina":
+    {
+        "pickup_sound": "bottle",
+        "containable": true,
+        "value": 1
+    },
+
+    "potion_haste":
+    {
+        "pickup_sound": "bottle",
+        "containable": true,
+        "value": 1
+
+    },
+
+    "knife":
+    {
+        "pickup_sound": "mine",
+        "containable": true,
+        "value": 3
+
+    },
+
+    "bomb":
+    {
+        "pickup_sound": "mine",
+        "containable": true,
+        "value": 3
+
+    },
+
+    "armor":
+    {
+        "pickup_sound": "armor",
+        "containable": true
+    },
+
+    "gold_coin":
+    {
+        "pickup_sound": "coin",
+        "containable": true
+    },
+
+    "silver_coin":
+    {
+        "pickup_sound": "coin",
+        "scale": 0.8
+    },
+
+    "bronze_coin":
+    {
+        "pickup_sound": "coin",
+        "scale": 0.6
+    },
+
+    "yellow_orb":
+    {
+        "pickup_sound": "bottle",
+        "scale": 1.0
+    },
+
+    "health_orb":
+    {
+        "pickup_sound": "bottle",
+        "scale": 1.0
+    },
+
+    "stamina_orb":
+    {
+        "pickup_sound": "bottle",
+        "scale": 1.0
+    },
+
+    "surprise":
+    {
+        "pickup_sound": "randomize"
+    },
+
+    "gift":
+    {
+        "sprite": "equipment/gift_turntable",
+        "pickup_sound": "randomize",
+        "palette": 0
+    },
+
+    "bone_1":
+    {
+        "pickup_sound": "bone",
+        "pickup_sound2": "exp"
+    },
+
+    "bone_2":
+    {
+        "pickup_sound": "bone",
+        "pickup_sound2": "exp"
+    },
+
+    "bone_3":
+    {
+        "pickup_sound": "bone",
+        "pickup_sound2": "exp_big"
+
+    },
+
+    "bone_4":
+    {
+        "pickup_sound": "bone",
+        "pickup_sound2": "exp_big"
+
+    },
+
+    "wood":
+    {
+        "pickup_sound": "bone",
+        "spin": 1.0,
+        "containable": true,
+        "value": 0
+
+    },
+
+    "stone":
+    {
+        "pickup_sound": "bone",
+        "spin": 1.0,
+        "containable": true,
+        "value": 0
+    },
+
+    "pumpkin":
+    {
+        "pickup_sound": "randomize",
+        "value": 0
+    },
+
+
+
+    "golden_axe":
+    {
+        "sprite": "equipment/axe_turntable",
+        "value": 0,
+        "palette": 25,
+        "pickup_sound": "weapon",
+        "containable": true,
+        "equipment": true
+    },
+
+    "shield_wooden":
+    {
+        "sprite": "equipment/shield_wooden_turntable",
+        "value": 0,
+        "palette": 0,
+        "pickup_sound": "weapon",
+        "containable": true,
+        "equipment": true
+    },
+
+    "bow":
+    {
+        "sprite": "equipment/bow_turntable",
+        "value": 0,
+        "palette": 0,
+        "pickup_sound": "weapon",
+        "containable": true,
+        "equipment": true
+    },
+    "axe":
+    {
+        "sprite": "equipment/axe_turntable",
+        "value": 0,
+        "palette": 0,
+        "pickup_sound": "weapon",
+        "containable": true,
+        "equipment": true
+    },
+    "scythe":
+    {
+        "sprite": "equipment/scythe_turntable",
+        "value": 0,
+        "palette": 0,
+        "pickup_sound": "weapon",
+        "containable": true,
+        "equipment": true
+    },
+    "spear":
+    {
+        "sprite": "equipment/spear_turntable",
+        "value": 0,
+        "palette": 0,
+        "pickup_sound": "weapon",
+        "containable": true,
+        "equipment": true
+    },
+    "claws":
+    {
+        "sprite": "equipment/claws_turntable",
+        "value": 0,
+        "palette": 0,
+        "pickup_sound": "weapon",
+        "containable": true,
+        "equipment": true
+    },
+    "club":
+    {
+        "sprite": "equipment/club_turntable",
+        "value": 0,
+        "palette": 0,
+        "pickup_sound": "weapon",
+        "containable": true,
+        "equipment": true
+    },
+    "double_axe":
+    {
+        "sprite": "equipment/double_axe_turntable",
+        "value": 0,
+        "palette": 0,
+        "pickup_sound": "weapon",
+        "containable": true,
+        "equipment": true
+    },
+    "observer_eye":
+    {
+        "sprite": "equipment/observer_eye_turntable",
+        "value": 0,
+        "palette": 0,
+        "pickup_sound": "weapon",
+        "containable": true,
+        "equipment": true
+    },
+    "hammer":
+    {
+        "sprite": "equipment/hammer_turntable",
+        "value": 0,
+        "palette": 0,
+        "pickup_sound": "weapon",
+        "containable": true,
+        "equipment": true
+    },
+    "sword":
+    {
+        "sprite": "equipment/sword_turntable",
+        "value": 0,
+        "palette": 0,
+        "pickup_sound": "weapon",
+        "containable": true,
+        "equipment": true
+    },
+    "ice_staff":
+    {
+        "sprite": "equipment/ice_staff_turntable",
+        "value": 0,
+        "palette": 0,
+        "pickup_sound": "weapon",
+        "containable": true,
+        "equipment": true
+    },
+
+
+
+    "heart":
+    {
+        "pickup_sound": "randomize",
+        "value": 0
+    },
+
+    "key":
+    {
+        "pickup_sound": "mine",
+        "value": 0,
+        "containable": true
+    }
+
+
+
+
+}

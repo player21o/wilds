@@ -1,0 +1,459 @@
+{
+
+  "TREE_SQUEAK": {
+
+    "duration": 3
+
+  },
+
+  "TREE_FALL": {
+
+    "duration": 0.6
+
+  },
+
+
+  "FLAME": {
+    "src": "animations/flame",
+    "frames": 13,
+    "duration": 1.0,
+    "width": 32,
+    "height": 32
+
+  },
+
+  "EXPLOSION": {
+    "src": "animations/explosion",
+    "frames": 17,
+    "duration": 1.0,
+    "width": 64,
+    "height": 64
+
+  },
+
+  "BLOCK": {
+    "src": "animations/hit",
+    "frames": 9,
+    "duration": 1.0,
+    "width": 16,
+    "height": 16
+
+  },
+  "JAVELIN_RIGHT": {
+    "src": "animations/javelin_right",
+    "frames": 9,
+    "duration": 1.0,
+    "width": 64,
+    "height": 64,
+    "easing": "inCirc",
+    "absAlignY": 31
+  },
+
+  "JAVELIN_LEFT": {
+    "src": "animations/javelin_right",
+    "frames": 9,
+    "duration": 1.0,
+    "width": 64,
+    "height": 64,
+    "easing": "inCirc",
+    "absAlignY": 31,
+    "flipX": true
+  },
+
+
+  "JAVELIN_UP": {
+    "src": "animations/javelin_up",
+    "frames": 9,
+    "duration": 1.0,
+    "width": 64,
+    "height": 64,
+    "easing": "linear",
+    "absAlignY": 27
+
+  },
+
+  "JAVELIN_DOWN": {
+    "src": "animations/javelin_up",
+    "frames": 9,
+    "duration": 1.0,
+    "width": 64,
+    "height": 64,
+    "easing": "outQuad",
+    "absAlignY": 27,
+    "flipY": true
+
+  },
+  "PUFF": {
+    "src": "animations/puff",
+    "frames": 34,
+    "duration": 1.0,
+    "width": 41,
+    "height": 41
+  },
+
+  "DUST": {
+    "src": "animations/dust",
+    "frames": 40,
+    "duration": 1.0,
+    "width": 64,
+    "height": 64
+  },
+
+  "SMOKE_PUFF": {
+    "src": "animations/smoke_puff",
+    "frames": 32,
+    "duration": 1.0,
+    "width": 64,
+    "height": 64
+  },
+
+  "CITIZEN_LEGS_RUNNING_DOWN": {
+
+    "src": "animations/citizen/legs_running_down",
+    "width": 32,
+    "height": 32,
+    "duration": 0.6,
+    "frames": 10,
+    "absAlignY": 24,
+    "torsoY": [0, 0, -1, 0, 1, 0, 0, -1, 0, 1]
+
+  },
+
+  "CITIZEN_LEGS_RUNNING_UP": {
+
+    "src": "animations/citizen/legs_running_up",
+    "width": 32,
+    "height": 32,
+    "duration": 0.6,
+    "frames": 10,
+    "absAlignY": 24,
+    "torsoY": [0, 0, -1, 0, 1, 0, 0, -1, 0, 1]
+
+  },
+
+
+  "CITIZEN_LEGS_RUNNING_LEFT": {
+
+    "src": "animations/citizen/legs_running_left",
+    "width": 32,
+    "height": 32,
+    "duration": 0.6,
+    "frames": 10,
+    "absAlignY": 24,
+    "torsoY": [0, 0, -1, 0, 1, 0, 0, -1, 0, 1]
+
+  },
+
+  "CITIZEN_LEGS_RUNNING_RIGHT": {
+
+    "src": "animations/citizen/legs_running_right",
+    "width": 32,
+    "height": 32,
+    "duration": 0.6,
+    "frames": 10,
+    "absAlignY": 24,
+    "torsoY": [0, 0, -1, 0, 1, 0, 0, -1, 0, 1]
+
+  },
+
+  "CITIZEN_SPLAT": {
+
+    "src": "animations/citizen/splat",
+    "width": 32,
+    "height": 32,
+    "absAlignY": 20,
+    "frames": 1
+
+  },
+
+  "CITIZEN_TORSO_RUNNING_DOWN": {
+
+    "src": "animations/citizen/torso_running_down",
+    "width": 32,
+    "height": 32,
+    "duration": 0.6,
+    "frames": 10,
+    "absAlignY": 24
+
+  },
+
+  "CITIZEN_TORSO_RUNNING_UP": {
+
+    "src": "animations/citizen/torso_running_up",
+    "width": 32,
+    "height": 32,
+    "duration": 0.6,
+    "frames": 10,
+    "absAlignY": 24
+
+  },
+
+  "CITIZEN_TORSO_RUNNING_LEFT": {
+
+    "src": "animations/citizen/torso_running_left",
+    "width": 32,
+    "height": 32,
+    "duration": 0.6,
+    "frames": 10,
+    "absAlignY": 24
+
+  },
+
+  "CITIZEN_TORSO_RUNNING_RIGHT": {
+
+    "src": "animations/citizen/torso_running_right",
+    "width": 32,
+    "height": 32,
+    "duration": 0.6,
+    "frames": 10,
+    "absAlignY": 24
+
+  },
+
+  "CITIZEN_TORSO_AXE_ATTACK": {
+
+    "duration": 0.6
+
+  },
+
+  "CITIZEN_TORSO_AXE_ATTACK_DOWN": {
+
+    "src": "animations/citizen/torso_axe_attack_down",
+    "width": 32,
+    "height": 32,
+    "duration": 0.6,
+    "frames": 16,
+    "absAlignY": 24,
+    "easing": "linear",
+    "hitFrame": 4,
+    "hitOffset": [0, 10]
+
+  },
+
+  "CITIZEN_TORSO_AXE_ATTACK_UP": {
+
+    "src": "animations/citizen/torso_axe_attack_up",
+    "width": 32,
+    "height": 32,
+    "duration": 0.6,
+    "frames": 12,
+    "absAlignY": 24,
+    "easing": "linear",
+    "hitFrame": 4,
+    "hitOffset": [0, -10]
+
+  },
+
+  "CITIZEN_TORSO_AXE_ATTACK_RIGHT": {
+
+    "src": "animations/citizen/torso_axe_attack_right",
+    "width": 32,
+    "height": 32,
+    "duration": 0.6,
+    "frames": 12,
+    "absAlignY": 24,
+    "easing": "outQuad",
+    "hitFrame": 4,
+    "hitOffset": [10, 0]
+
+  },
+
+  "CITIZEN_TORSO_AXE_ATTACK_LEFT": {
+
+    "src": "animations/citizen/torso_axe_attack_right",
+    "width": 32,
+    "height": 32,
+    "duration": 0.6,
+    "frames": 12,
+    "absAlignY": 24,
+    "easing": "outQuad",
+    "hitFrame": 4,
+    "flipX": true,
+    "hitOffset": [-10, 0]
+
+
+  },
+
+  "CITIZEN_TORSO_AXE_CUT": {
+
+    "src": "animations/citizen/torso_axe_cut",
+    "width": 32,
+    "height": 32,
+    "duration": 1.0,
+    "frames": 15,
+    "absAlignY": 24,
+    "easing": "outQuad"
+
+  },
+
+  "CITIZEN_TORSO_AXE_PULL": {
+
+    "src": "animations/citizen/torso_axe_pull",
+    "width": 32,
+    "height": 32,
+    "duration": 0.6,
+    "frames": 13,
+    "absAlignY": 24,
+    "easing": "outQuad"
+
+  },
+
+  "CITIZEN_TORSO_AXE_HIDE": {
+
+    "src": "animations/citizen/torso_axe_hide",
+    "width": 32,
+    "height": 32,
+    "duration": 0.6,
+    "frames": 8,
+    "absAlignY": 24,
+    "easing": "outQuad"
+
+  },
+
+
+  "CITIZEN_TORSO_PICK_HEAVY": {
+    "duration": 0.6
+  },
+
+  "CITIZEN_TORSO_PICK_WOOD": {
+
+    "src": "animations/citizen/torso_pick_wood",
+    "width": 32,
+    "height": 32,
+    "duration": 0.6,
+    "frames": 8,
+    "absAlignY": 24
+
+  },
+
+  "CITIZEN_TORSO_CARRY_WOOD": {
+
+    "src": "animations/citizen/torso_carry_wood",
+    "width": 32,
+    "height": 32,
+    "duration": 1.0,
+    "frames": 4,
+    "absAlignY": 24
+
+  },
+
+  "CITIZEN_TORSO_THROW_DOWN": {
+
+    "src": "animations/citizen/torso_throw_down",
+    "width": 32,
+    "height": 32,
+    "duration": 0.5,
+    "frames": 6,
+    "absAlignY": 24
+
+  },
+
+  "CITIZEN_THROW": {
+    "duration": 0.5
+  },
+
+  "CITIZEN_TORSO_THROW_LEFT": {
+
+    "src": "animations/citizen/torso_throw_left",
+    "width": 32,
+    "height": 32,
+    "duration": 0.5,
+    "frames": 7,
+    "absAlignY": 24
+
+  },
+
+  "CITIZEN_TORSO_THROW_RIGHT": {
+
+    "src": "animations/citizen/torso_throw_left",
+    "width": 32,
+    "height": 32,
+    "duration": 0.5,
+    "frames": 7,
+    "absAlignY": 24,
+    "flipX": true
+
+  },
+
+  "CITIZEN_TORSO_THROW_UP": {
+
+    "src": "animations/citizen/torso_running_up",
+    "width": 32,
+    "height": 32,
+    "duration": 0.6,
+    "frames": 1,
+    "absAlignY": 24
+
+  },
+
+  "SHARDS": {
+    "src": "animations/shards",
+    "width": 64,
+    "height": 64,
+    "duration": 1.0,
+    "frames": 32
+  },
+
+  "CAMPFIRE": {
+    "src": "animations/campfire",
+    "width": 32,
+    "height": 64,
+    "duration": 0.4,
+    "frames": 32
+  },
+
+  "CAMPFIRE_SMOKE": {
+    "src": "animations/campfireSmoke",
+    "width": 32,
+    "height": 64,
+    "duration": 0.4,
+    "frames": 32
+  },
+
+  "hit": {
+    "src": "animations/hit",
+    "width": 16,
+    "height": 16,
+    "duration": 0.4,
+    "frames": 9
+  },
+
+  "DEER_IDLE": {
+    "src": "animations/deer/idle",
+    "width": 64,
+    "height": 64,
+    "frames": 4,
+    "duration": 1.0,
+    "absAlignY": 41
+  },
+
+  "DEER_RUNNING": {
+    "src": "animations/deer/running",
+    "width": 64,
+    "height": 64,
+    "frames": 7,
+    "duration": 0.5,
+    "absAlignY": 41
+  },
+
+  "DEER_TO_RUNNING": {
+    "src": "animations/deer/to_running",
+    "width": 64,
+    "height": 64,
+    "frames": 3,
+    "duration": 0.2,
+    "absAlignY": 41
+  },
+
+  "DEER_ALERT": {
+    "src": "animations/deer/alert",
+    "width": 64,
+    "height": 64,
+    "frames": 2,
+    "duration": 0.2,
+    "absAlignY": 41
+  }
+
+
+
+}

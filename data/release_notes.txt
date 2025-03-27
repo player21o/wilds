@@ -1,0 +1,4 @@
+Latest changes:
+
+<li> Press [F] to Throw your weapon
+<li> Dash (double tap WSAD)

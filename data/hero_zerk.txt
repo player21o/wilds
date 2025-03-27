@@ -1,0 +1,8 @@
+ZERK
++ Faster attack rate
++ More health
++ Can kill knocked down enemies
++ A lot of dodging moves
++ Slightly faster movement
++ Special move: WHIRLWIND
+- Can't block

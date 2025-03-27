@@ -1,0 +1,164 @@
+
+
+.mark {
+
+}
+
+a[ui-id] {
+  color: #fff;
+}
+
+
+.button {
+  @include style-4;
+  height: 36px;
+  line-height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 14px;
+  @include cursor-pointer;
+  margin: 2px;
+  &:hover {
+    filter: brightness(110%);
+  }
+  svg {
+    margin: 0 5px;
+    width: 15px;
+    fill: #fff;
+    position: relative;
+    top: 2px;
+  }
+  &.facebook,
+  &.patreon {
+    width: 47%;
+    margin: 0;
+    text-align: center;
+  }
+  &.facebook {
+    margin-right: 10px;
+  }
+}
+
+.soci-icons {
+  margin-top: 10px;
+  .soci-icon {
+    display: block;
+    width: 45px;
+    margin-bottom: 5px;
+    text-align: center;
+    padding: 6px 0 2px 0;
+    @include cursor-pointer;
+    @include style-13;
+    &:hover {
+      filter: brightness(110%);
+    }
+    svg {
+      width: 20px;
+    }
+  }
+  .soci-numbers {
+    background: rgba(0, 0, 0, 0.12);
+    display: block;
+    margin: 0 0 -2px 0;
+    border-radius: 0 0 4px 4px;
+    font-size: 11px;
+    padding-bottom: 2px;
+  }
+  .soci-label {
+    display: none;
+  }
+}
+
+img.svg {
+  display: none;
+}
+
+.replaced-svg {
+  display: inline-block;
+}
+
+.form-label {
+  display: flex;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 3px;
+  color: #b97878;
+  padding: 25px 0 10px 0;
+  &:before,
+  &:after {
+    width: 100%;
+    height: 1px;
+    background: rgba(210, 153, 153, 0.25);
+    content: '';
+    margin-top: 9px;
+  }
+  &:before {
+    margin-right: 10px;
+  }
+  &:after {
+    margin-left: 10px;
+  }
+}
+
+.notifier > * {
+  @include cursor-pointer;
+}
+
+.gold-label {
+  @include style-6;
+  position: relative;
+  top: -9px;
+  .gold-number {
+    color: #ffca24;
+    vertical-align: middle;
+  }
+  img {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+.lobby-header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.toggles {
+  margin: auto;
+  text-align: center;
+  display: inline-flex;
+  justify-content: center;
+  > * {
+    flex-grow: 1;
+    height: 35px;
+    padding: 0 10px 0 10px;
+    font-weight: 700;
+    font-size: 14px;
+    @include cursor-pointer;
+    @include style-12;
+    &:first-child {
+      border-radius: 4px 0 0 4px;
+    }
+    &:last-child {
+      border-radius: 0 4px 4px 0;
+    }
+  }
+  &.gametype {
+    margin-top: 15px;
+  }
+}
+
+.server-selection {
+  margin: auto;
+}
+
+.tooltipster-ant {
+  @include style-5;
+}
+.tooltipster-ant .tooltipster-content {
+  font-size: 15px;
+  color: #fff;
+	padding: 17px 15px;
+}

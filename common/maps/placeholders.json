@@ -1,0 +1,45 @@
+{
+
+  "Crate": {
+    "image": "crates",
+    "key": "key",
+    "region": "sprite",
+    "render": "keyToRegion",
+    "data": "crates"
+  },
+
+  "Stone": {
+    "image": "stones",
+    "key": "key",
+    "render": "keyToRegion",
+    "data": "stones"
+  },
+
+  "Guillotine": {
+    "image": "guillotine",
+    "render": "image",
+    "region": [66, 0, 64, 56],
+    "alignY": 1.0,
+    "grid": 2
+  },
+
+  "Spikes": {
+    "image": "spikes",
+    "render": "image",
+    "region": [384, 0, 64, 64],
+    "alignX": 0,
+    "alignY": 0,
+    "offsetY": -16,
+    "grid": 1
+  },
+
+  "RespawnPoint": {
+    "image": "editor",
+    "key": "team",
+    "render": "keyToRegion",
+    "data": "respawn_points",
+    "alignY": 1.0,
+    "alignX": 0.0
+  }
+
+}

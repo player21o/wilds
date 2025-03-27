@@ -1,0 +1,23 @@
+{
+  "error/not_logged_in": "You have to be logged in. <br> Go back to menu and login.",
+  "matchmaking_group": "matchmaking group",
+  "play": "play",
+  "players": "players",
+  "settings": "settings",
+  "gender": "gender",
+  "gender/male": "male",
+  "gender/female": "female",
+  "mode": "mode",
+  "mode/0": "ruins",
+  "mode/1": "3 VS 3",
+  "mode/2": "soccer",
+  "mode/3": "flags",
+  "mode/4": "arena 1 VS 1",
+  "mode/5": "practice",
+  "players_in_game": "players in game",
+  "players_in_queue": "players in queue",
+  "login": "login or register",
+  "my_account": "my account",
+  "login_info": "Login to set a name, collect score and gold that you can spend on new weapons and items",
+  "error/invalid_password": "Password has to be at least 8 characters long"
+}

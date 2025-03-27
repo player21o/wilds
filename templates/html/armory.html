@@ -1,0 +1,80 @@
+<div ui-id=armory class="temp-armory window center-window style-1 gui-rows spacing-xl armory-window ui">
+
+      <div class="top-counters gui-cols">
+    <span class="gui-gold-counter" ui-id="goldCounter">
+        <span ui-id=gold>0</span>
+        <img src="images/coin.gif" class="coin">
+    </span>
+  </div>
+
+  <div class="gui-cols space-around">
+
+    <div ui-id=shop class="hero-block gui-rows spacing-md">
+      <div ui-id=heroSprite class="style-2" style="height: calc(32px + 10vh); width: calc(32px + 10vh);"></div>
+    </div>
+
+  <div class="gui-rows space-around spacing-md iap">
+
+    <div class="gui-cols space-around spacing-md" ui-id=miniShop>
+
+      <a class="style-2 armory-buy-coins armory-buy-coins-1" taxamo-product="wildsio_coins_a" taxamo-product-view="redirect">
+        <span class="amount">2400</span>
+        <img src="shop/images/gold_a2.png?2" /><br>
+        <span class="price">3$</span> 
+      </a>
+
+      <a class="style-2 armory-buy-coins armory-buy-coins-2" taxamo-product="wildsio_coins_b" taxamo-product-view="redirect">
+        <span class="amount">6000</span>
+        <img src="shop/images/gold_b2.png?2" /><br>
+        <span class="price">6$</span> 
+      </a>
+
+      <a class="style-2 armory-buy-coins armory-buy-coins-3" taxamo-product="wildsio_coins_c" taxamo-product-view="redirect">
+        <span class="amount">14000</span>
+        <img src="shop/images/gold_c2.png?2" /><br>
+        <span class="price">10$</span> 
+      </a>
+
+    </div>
+
+    <div class="paypal-logo"><img src="templates/images/paypal-white-text.png"></div>
+
+  </div>
+
+  </div>
+
+  <div ui-id=items class="shopping-section gui-rows spacing-sm">
+
+      <div ui-id="tabs" class="gui-toggles gui-cols grow-equal" style="position: relative; z-index: 2">
+        <span ui-value="weapons">Weapons</span>      
+        <span ui-value="helmets">Helmets</span>      
+        <span ui-value="shields">Shields</span>      
+        <span ui-value="capes">Capes</span>      
+        <span ui-value="voice">Voice</span>      
+      </div>
+
+      <div ui-id="tabContent">
+        <div ui-id=weapons class="gui-flex wrap product-list spacing-sm"></div>
+        <div ui-id=shields class="gui-flex wrap product-list spacing-sm"></div>
+        <div ui-id=helmets class="gui-flex wrap product-list spacing-sm">
+          <div ui-id=item class="item">
+            <span class="gui-sublabel price-box gui-button green buy">
+              <img src="images/patreon_icon_old.png" class="coin">
+              <span class="price"></span>
+            </span>
+            <div class=sprite></div>
+          </div>
+        </div>
+        <div ui-id=capes class="gui-flex wrap product-list spacing-sm"></div>
+        <div ui-id=voice class="gui-flex wrap product-list spacing-sm"></div>
+      </div>
+
+
+  </div>
+
+  <div  class="iap">
+    <a href="http://patreon.com/wildsio" target="_blank"></a><img src="https://www.patreon.com/images/patreon_navigation_logo_mini_orange.png" width=48 align=left style="margin-right: 16px; ">
+    Consider supporting the game on <a target="_blank" href="http://patreon.com/wildsio">Patreon</a>. Patrons get 800 gold for each 1$ at the beginning of the month.
+  </div>
+
+</div>

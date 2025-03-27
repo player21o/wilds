@@ -1,0 +1,10 @@
+{
+  "width": 16,
+  "height": 300,
+  "frames": 20,
+  "alignY": 0.0,
+  "markers": {
+    "loop": 4,
+    "leave": 13
+  }
+}

@@ -1,0 +1,102 @@
+<div class="temp-lobby-play window style-1">
+
+
+
+
+
+
+
+
+  <hr />
+
+  <div class="gui-rows">
+    <div>lobby header</div>
+    <div>server select</div>
+    <div>login form</div>
+    <div>game settings</div>
+  </div>
+
+  <hr />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="lobby-header">
+
+    <div ui-id=armory style="text-align:center; display: inline-block;">
+      <div ui-id=heroSprite class="style-2" style="height: 120px; width: 120px" title="Enter the armory to change your hat and weapon"></div>
+      <span class="gold-label">
+        <span ui-id=gold class="gold-number">200</span>
+        <img src="images/patreon_icon_old.png" width=16>
+      </span>
+    </div>
+
+    <div class="soci-icons">
+      <a href="#" ui-id="facebook" class="soci-icon facebook" title="Like the game on facebook">
+        <span class="soci-label">FACEBOOK</span>
+      </a>
+      <a href="#" ui-id="twitter" class="soci-icon twitter" title="Follow the author on twitter">
+        <span class="soci-label">TWITTER</span>
+      </a>
+      <a href="#" ui-id="discord" class="soci-icon discord" title="Chat about the game">
+        <span class="soci-label">DISCORD</span>
+        <span ui-id=discordCounter class="soci-numbers">120</span>
+      </a>
+    </div>
+
+  </div>
+
+
+  <div class="server-selection">
+
+    <span class="form-label">Server</span>
+    <div ui-id=locations class="toggles">
+      <button>EU</button>
+    </div>
+
+    <div class="gametype">
+      <button ui-id="playQuick" class="button primary">QUICK GAME</button>
+      <button ui-id="playFootball" class="button primary">FOOTBALL</button>
+    </div>
+
+  </div>
+
+  <span class="form-label">Login</span>
+  <div ui-id=loginPanel>
+    <a ui-id="facebookLogin" target="_blank" class="button facebook" title="Login using Facebook">
+      FACEBOOK
+    </a>
+    <a ui-id="patreonLogin" target="_blank" class="button patreon">
+      PATREON
+    </a>
+  </div>
+
+  <div ui-id=logoutPanel>
+    <a ui-id="autoLogin" class="checkbox checked">AUTO LOGIN</a>
+    <button ui-id="logout" class="button primary">LOGOUT</button>
+  </div>
+
+  <p>
+    <input ui-id=name type=text placeholder="Name" />
+    <button ui-id=claimName class="button primary">CLAIM NAME</button>
+  </p>
+
+  <p><input ui-id=tribe type=text placeholder="Tribe" /></p>
+
+    <button ui-id=settings class="button primary">SETTINGS</button>
+
+</div>

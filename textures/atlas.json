@@ -1,0 +1,792 @@
+{
+  "images": [
+    {
+      "src": "atlas_0.png"
+    }
+  ],
+  "sprites": {
+    "player_highlight": {
+      "image": 0,
+      "region": [
+        0,
+        0,
+        148,
+        137
+      ]
+    },
+    "splats/mud3": {
+      "image": 0,
+      "region": [
+        150,
+        0,
+        128,
+        128
+      ]
+    },
+    "splats/mud2": {
+      "image": 0,
+      "region": [
+        280,
+        0,
+        128,
+        128
+      ]
+    },
+    "splats/mud1": {
+      "image": 0,
+      "region": [
+        410,
+        0,
+        128,
+        128
+      ]
+    },
+    "objects/shed_unlocked": {
+      "image": 0,
+      "region": [
+        540,
+        0,
+        79,
+        92
+      ]
+    },
+    "objects/shed": {
+      "image": 0,
+      "region": [
+        621,
+        0,
+        79,
+        92
+      ]
+    },
+    "objects/stove": {
+      "image": 0,
+      "region": [
+        702,
+        0,
+        42,
+        82
+      ]
+    },
+    "objects/gate_closed": {
+      "image": 0,
+      "region": [
+        746,
+        0,
+        192,
+        81
+      ]
+    },
+    "objects/gate_damaged": {
+      "image": 0,
+      "region": [
+        0,
+        139,
+        192,
+        81
+      ]
+    },
+    "objects/gate_destroyed": {
+      "image": 0,
+      "region": [
+        194,
+        139,
+        192,
+        81
+      ]
+    },
+    "objects/table1_unlocked": {
+      "image": 0,
+      "region": [
+        940,
+        0,
+        48,
+        72
+      ]
+    },
+    "objects/armory_wardrobe1_locked": {
+      "image": 0,
+      "region": [
+        388,
+        139,
+        57,
+        65
+      ]
+    },
+    "objects/wardrobe1_unlocked": {
+      "image": 0,
+      "region": [
+        447,
+        139,
+        57,
+        65
+      ]
+    },
+    "objects/wardrobe1_locked": {
+      "image": 0,
+      "region": [
+        506,
+        139,
+        57,
+        65
+      ]
+    },
+    "objects/armory_wardrobe1_unlocked": {
+      "image": 0,
+      "region": [
+        565,
+        139,
+        57,
+        65
+      ]
+    },
+    "objects/door_opened": {
+      "image": 0,
+      "region": [
+        624,
+        139,
+        40,
+        64
+      ]
+    },
+    "objects/door_locked": {
+      "image": 0,
+      "region": [
+        666,
+        139,
+        40,
+        64
+      ]
+    },
+    "objects/door_closed": {
+      "image": 0,
+      "region": [
+        708,
+        139,
+        40,
+        64
+      ]
+    },
+    "dark_tile": {
+      "image": 0,
+      "region": [
+        750,
+        139,
+        80,
+        60
+      ]
+    },
+    "ui/clock": {
+      "image": 0,
+      "region": [
+        832,
+        139,
+        67,
+        56
+      ]
+    },
+    "objects/minion_placeholder": {
+      "image": 0,
+      "region": [
+        901,
+        139,
+        42,
+        42
+      ]
+    },
+    "objects/medical_chest1_unlocked": {
+      "image": 0,
+      "region": [
+        945,
+        139,
+        58,
+        40
+      ]
+    },
+    "objects/medical_chest1_locked": {
+      "image": 0,
+      "region": [
+        0,
+        222,
+        58,
+        40
+      ]
+    },
+    "objects/medical_cupboard1_locked": {
+      "image": 0,
+      "region": [
+        60,
+        222,
+        45,
+        37
+      ]
+    },
+    "objects/medical_cupboard1_unlocked": {
+      "image": 0,
+      "region": [
+        107,
+        222,
+        45,
+        37
+      ]
+    },
+    "objects/armory_chest1_locked": {
+      "image": 0,
+      "region": [
+        154,
+        222,
+        57,
+        35
+      ]
+    },
+    "objects/armory_chest1_unlocked": {
+      "image": 0,
+      "region": [
+        213,
+        222,
+        57,
+        35
+      ]
+    },
+    "ui/thermometer_off": {
+      "image": 0,
+      "region": [
+        990,
+        0,
+        13,
+        29
+      ]
+    },
+    "ui/action_circle_neutral": {
+      "image": 0,
+      "region": [
+        990,
+        31,
+        24,
+        25
+      ]
+    },
+    "ui/action_circle_positive": {
+      "image": 0,
+      "region": [
+        540,
+        94,
+        24,
+        25
+      ]
+    },
+    "ui/action_circle_negative": {
+      "image": 0,
+      "region": [
+        566,
+        94,
+        24,
+        25
+      ]
+    },
+    "ui/thermometer_on": {
+      "image": 0,
+      "region": [
+        1005,
+        0,
+        9,
+        23
+      ]
+    },
+    "objects/pedestal": {
+      "image": 0,
+      "region": [
+        592,
+        94,
+        19,
+        22
+      ]
+    },
+    "markers/weapon": {
+      "image": 0,
+      "region": [
+        613,
+        94,
+        14,
+        19
+      ]
+    },
+    "ui/loader16x": {
+      "image": 0,
+      "region": [
+        629,
+        94,
+        16,
+        16
+      ]
+    },
+    "ranks/ingame/6": {
+      "image": 0,
+      "region": [
+        647,
+        94,
+        9,
+        15
+      ]
+    },
+    "markers/tree": {
+      "image": 0,
+      "region": [
+        990,
+        58,
+        11,
+        13
+      ]
+    },
+    "markers/center": {
+      "image": 0,
+      "region": [
+        1003,
+        58,
+        13,
+        13
+      ]
+    },
+    "charge_face/6": {
+      "image": 0,
+      "region": [
+        658,
+        94,
+        11,
+        13
+      ]
+    },
+    "markers/fort": {
+      "image": 0,
+      "region": [
+        671,
+        94,
+        10,
+        13
+      ]
+    },
+    "ranks/ingame/8": {
+      "image": 0,
+      "region": [
+        683,
+        94,
+        7,
+        13
+      ]
+    },
+    "health_face/5": {
+      "image": 0,
+      "region": [
+        692,
+        94,
+        10,
+        12
+      ]
+    },
+    "health_face/3": {
+      "image": 0,
+      "region": [
+        704,
+        94,
+        11,
+        12
+      ]
+    },
+    "health_face/2": {
+      "image": 0,
+      "region": [
+        717,
+        94,
+        11,
+        12
+      ]
+    },
+    "health_face/1": {
+      "image": 0,
+      "region": [
+        730,
+        94,
+        11,
+        12
+      ]
+    },
+    "health_face/0": {
+      "image": 0,
+      "region": [
+        743,
+        94,
+        11,
+        12
+      ]
+    },
+    "health_face/4": {
+      "image": 0,
+      "region": [
+        756,
+        94,
+        11,
+        12
+      ]
+    },
+    "markers/king": {
+      "image": 0,
+      "region": [
+        769,
+        94,
+        11,
+        12
+      ]
+    },
+    "charge_face/5": {
+      "image": 0,
+      "region": [
+        782,
+        94,
+        11,
+        12
+      ]
+    },
+    "charge_face/4": {
+      "image": 0,
+      "region": [
+        795,
+        94,
+        11,
+        12
+      ]
+    },
+    "charge_face/3": {
+      "image": 0,
+      "region": [
+        808,
+        94,
+        11,
+        12
+      ]
+    },
+    "health_face/6": {
+      "image": 0,
+      "region": [
+        821,
+        94,
+        11,
+        12
+      ]
+    },
+    "markers/house": {
+      "image": 0,
+      "region": [
+        834,
+        94,
+        10,
+        11
+      ]
+    },
+    "ranks/ingame/10": {
+      "image": 0,
+      "region": [
+        846,
+        94,
+        12,
+        11
+      ]
+    },
+    "charge_face/2": {
+      "image": 0,
+      "region": [
+        860,
+        94,
+        11,
+        11
+      ]
+    },
+    "markers/barbarian": {
+      "image": 0,
+      "region": [
+        873,
+        94,
+        11,
+        11
+      ]
+    },
+    "charge_face/1": {
+      "image": 0,
+      "region": [
+        886,
+        94,
+        11,
+        11
+      ]
+    },
+    "ranks/ingame/5": {
+      "image": 0,
+      "region": [
+        899,
+        94,
+        9,
+        11
+      ]
+    },
+    "ui/clock_hand": {
+      "image": 0,
+      "region": [
+        910,
+        94,
+        11,
+        11
+      ]
+    },
+    "ranks/ingame/9": {
+      "image": 0,
+      "region": [
+        923,
+        94,
+        13,
+        11
+      ]
+    },
+    "charge_face/0": {
+      "image": 0,
+      "region": [
+        938,
+        94,
+        11,
+        11
+      ]
+    },
+    "ranks/ingame/3": {
+      "image": 0,
+      "region": [
+        951,
+        94,
+        9,
+        10
+      ]
+    },
+    "markers/orc": {
+      "image": 0,
+      "region": [
+        962,
+        94,
+        11,
+        10
+      ]
+    },
+    "markers/mate": {
+      "image": 0,
+      "region": [
+        975,
+        94,
+        10,
+        10
+      ]
+    },
+    "markers/friend": {
+      "image": 0,
+      "region": [
+        987,
+        94,
+        10,
+        10
+      ]
+    },
+    "markers/enemy": {
+      "image": 0,
+      "region": [
+        999,
+        94,
+        10,
+        10
+      ]
+    },
+    "markers/woods": {
+      "image": 0,
+      "region": [
+        1011,
+        94,
+        11,
+        9
+      ]
+    },
+    "markers/mines": {
+      "image": 0,
+      "region": [
+        1005,
+        139,
+        10,
+        9
+      ]
+    },
+    "markers/important": {
+      "image": 0,
+      "region": [
+        1005,
+        150,
+        9,
+        9
+      ]
+    },
+    "ui/health_bar_off_enemy": {
+      "image": 0,
+      "region": [
+        940,
+        74,
+        48,
+        7
+      ]
+    },
+    "ranks/ingame/7": {
+      "image": 0,
+      "region": [
+        990,
+        74,
+        7,
+        7
+      ]
+    },
+    "ui/health_bar_enemy": {
+      "image": 0,
+      "region": [
+        702,
+        84,
+        48,
+        7
+      ]
+    },
+    "ui/health_bar_friendly": {
+      "image": 0,
+      "region": [
+        752,
+        84,
+        48,
+        7
+      ]
+    },
+    "ui/health_bar_off": {
+      "image": 0,
+      "region": [
+        802,
+        84,
+        48,
+        7
+      ]
+    },
+    "ranks/ingame/4": {
+      "image": 0,
+      "region": [
+        999,
+        74,
+        9,
+        7
+      ]
+    },
+    "ui/health_bar_off_friendly": {
+      "image": 0,
+      "region": [
+        852,
+        84,
+        48,
+        7
+      ]
+    },
+    "ui/health_bar_on": {
+      "image": 0,
+      "region": [
+        902,
+        84,
+        56,
+        7
+      ]
+    },
+    "ranks/ingame/2": {
+      "image": 0,
+      "region": [
+        1010,
+        74,
+        9,
+        7
+      ]
+    },
+    "ui/record_off": {
+      "image": 0,
+      "region": [
+        960,
+        84,
+        7,
+        7
+      ]
+    },
+    "ui/record_on": {
+      "image": 0,
+      "region": [
+        969,
+        84,
+        7,
+        7
+      ]
+    },
+    "ui/stamina_bar_on": {
+      "image": 0,
+      "region": [
+        540,
+        121,
+        48,
+        7
+      ]
+    },
+    "ui/armor_bar_on": {
+      "image": 0,
+      "region": [
+        590,
+        121,
+        48,
+        7
+      ]
+    },
+    "xui/armor_bar_on": {
+      "image": 0,
+      "region": [
+        978,
+        84,
+        32,
+        7
+      ]
+    },
+    "ranks/ingame/1": {
+      "image": 0,
+      "region": [
+        1005,
+        25,
+        9,
+        4
+      ]
+    },
+    "xui/health_bar_off": {
+      "image": 0,
+      "region": [
+        640,
+        121,
+        32,
+        4
+      ]
+    },
+    "xui/health_bar_on": {
+      "image": 0,
+      "region": [
+        674,
+        121,
+        32,
+        4
+      ]
+    },
+    "xui/stamina_bar_on": {
+      "image": 0,
+      "region": [
+        708,
+        121,
+        32,
+        4
+      ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "back": "wstecz",
+  "buy": "kup",
+  "equip": "załóż",
+  "error/not_logged_in": "Musisz się zalogować. Wróć do menu i zaloguj się.",
+  "matchmaking_group": "twoja grupa",
+  "login": "zaloguj się",
+  "login_with": "zaloguj się używając",
+  "armory": "zbrojownia",
+  "server": "serwer",
+  "play": "graj",
+  "settings": "ustawienia",
+  "gender": "płeć",
+  "gender/male": "mężczyzna",
+  "gender/female": "kobieta",
+  "mode": "tryb",
+  "mode/0": "ruiny",
+  "mode/1": "3 na 3",
+  "mode/2": "piłkarzyki",
+  "mode/3": "flagi",
+  "mode/4": "arena 1 na 1",
+  "mode/5": "trening",
+  "players_in_game": "gracze w grze",
+  "players_in_queue": "gracze w kolejce",
+  "queue": "kolejka",
+  "playing": "gracze",
+  "my_account": "moje konto",
+  "login_info": "Zaloguj się, żeby zmienić nick, zdobywać złoto i kupować nowe uzbrojenie",
+  "map": "mapa"
+
+
+
+}

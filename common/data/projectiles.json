@@ -1,0 +1,562 @@
+{
+
+    "arrow":
+    {
+
+        "type": "arrow",
+        "homing": 1.0,
+        "damage": 1.5,
+        "speed": 700,
+        "head": [0, 13, 24, 7],
+        "trail":
+        {
+            "color": "#9badb7"
+        },
+        "explosion":
+        {
+            "key": "debris",
+            "color": "#8f563b",
+            "colorMode": "color"
+        },
+        "smokeTrail": true,
+        "impactSound": "impact/arrow"
+
+
+    },
+
+    "piercing_arrow":
+    {
+
+        "type": "arrow",
+        "homing": 1.0,
+        "damage": 2,
+        "piercing": true,
+        "speed": 800,
+        "head": [30, 12, 25, 9],
+        "sound": "weapons/cannon1",
+        "soundRate": 1.5,
+        "smokeTrail": true,
+
+        "trail":
+        {
+            "color": "#df7126",
+            "key": "fx/trail2",
+            "duration": 0.3,
+            "scaleX": 0.5
+        },
+        "fall": true,
+        "explosion":
+        {
+            "key": "debris",
+            "color": "#8f563b",
+            "colorMode": "color"
+        },
+        "impactSound": "impact/arrow"
+
+
+
+    },
+
+    "ice_bolt":
+    {
+
+        "damage": 0,
+        "piercing": true,
+        "freeze": 2,
+        "speed": 400,
+        "sound": "spells/ice_blast",
+        "soundRate": 0.8,
+        "lighting": true,
+        "sparks": true
+
+    },
+
+
+    "spear":
+    {
+
+        "trail":
+        {
+            "color": "#8f563b"
+        },
+        "type": "equipment",
+        "damage": 2,
+        "speed": 600,
+        "piercing": true,
+        "homing": 0.5,
+        "sprite":
+        {
+            "offsetZ": 32,
+            "key": "equipment/spear_still",
+            "lookAt": true
+        },
+        "fall": true,
+        "explosion":
+        {
+            "key": "debris",
+            "color": "#8f563b",
+            "colorMode": "color"
+        }
+    },
+
+
+    "claws":
+    {
+
+        "type": "equipment",
+        "damage": 3,
+        "speed": 250,
+        "homing": 0.5,
+        "sprite":
+        {
+            "key": "equipment/claws_spin",
+            "spin": true,
+            "frame": 6
+        },
+        "soundLoop": true,
+        "fall": true,
+        "explosion":
+        {
+            "key": "debris",
+            "color": "#8f563b",
+            "colorMode": "color"
+        },
+        "spinTrail":
+        {
+            "color": "#cbdbfc"
+        }
+
+
+    },
+
+    "double_axe":
+    {
+
+        "type": "equipment",
+        "damage": 3,
+        "speed": 250,
+        "homing": 0.5,
+        "sprite":
+        {
+            "key": "equipment/double_axe_spin",
+            "spin": true,
+            "frame": 6
+        },
+        "soundLoop": true,
+        "fall": true,
+        "explosion":
+        {
+            "key": "debris",
+            "color": "#8f563b",
+            "colorMode": "color"
+        },
+        "spinTrail":
+        {
+            "color": "#cbdbfc"
+        }
+
+
+    },
+
+
+
+    "axe":
+    {
+
+        "type": "equipment",
+        "damage": 3,
+        "speed": 250,
+        "homing": 0.5,
+        "sprite":
+        {
+            "key": "equipment/axe_spin",
+            "spin": true,
+            "frame": 6
+        },
+        "soundLoop": true,
+        "fall": true,
+        "explosion":
+        {
+            "key": "debris",
+            "color": "#cbdbfc",
+            "colorMode": "color"
+        },
+        "spinTrail":
+        {
+            "color": "#cbdbfc"
+        },
+        "impactSound": "impact/metal"
+
+    },
+
+    "golden_axe":
+    {
+
+        "type": "equipment",
+        "damage": 3,
+        "speed": 250,
+        "homing": 0.5,
+        "golden": true,
+        "sprite":
+        {
+            "key": "equipment/axe_spin",
+            "spin": true,
+            "frame": 6,
+            "palette": 25
+        },
+        "soundLoop": true,
+        "fall": true,
+        "explosion":
+        {
+            "key": "debris",
+            "color": "#fbf236",
+            "colorMode": "color"
+        },
+        "spinTrail":
+        {
+            "color": "#fbf236"
+        },
+        "impactSound": "impact/metal"
+
+
+
+    },
+
+    "hammer":
+    {
+
+        "type": "equipment",
+        "damage": 3,
+        "speed": 250,
+        "homing": 0.5,
+        "sprite":
+        {
+            "key": "equipment/hammer_spin",
+            "spin": true,
+            "frame": 6
+        },
+        "soundLoop": true,
+        "fall": true,
+        "explosion":
+        {
+            "key": "debris",
+            "color": "#cbdbfc",
+            "colorMode": "color"
+        },
+        "spinTrail":
+        {
+            "color": "#cbdbfc"
+        },
+        "impactSound": "impact/metal"
+
+
+
+    },
+
+    "sword":
+    {
+
+        "type": "equipment",
+        "damage": 3,
+        "speed": 250,
+        "homing": 0.5,
+        "sprite":
+        {
+            "key": "equipment/sword_spin",
+            "spin": true,
+            "frame": 6
+        },
+        "soundLoop": true,
+        "fall": true,
+        "explosion":
+        {
+            "key": "debris",
+            "color": "#cbdbfc",
+            "colorMode": "color"
+        },
+        "spinTrail":
+        {
+            "color": "#cbdbfc"
+        },
+        "impactSound": "impact/metal"
+
+
+
+    },
+
+
+    "scythe":
+    {
+
+        "type": "equipment",
+        "damage": 6,
+        "speed": 200,
+        "homing": 1.0,
+        "sprite":
+        {
+            "spin": true,
+            "key": "equipment/scythe_spin",
+            "frame": 6
+        },
+        "soundLoop": true,
+        "soundLoopRate": 0.75,
+        "fall": true,
+        "explosion":
+        {
+            "key": "debris",
+            "color": "#cbdbfc",
+            "colorMode": "color"
+        },
+        "spinTrail":
+        {
+            "color": "#cbdbfc"
+        },
+        "impactSound": "impact/metal"
+
+
+    },
+
+
+    "fire_staff":
+    {
+
+        "type": "equipment",
+        "damage": 3,
+        "speed": 250,
+        "homing": 0.5,
+        "sprite":
+        {
+            "key": "equipment/fire_staff_spin",
+            "spin": true,
+            "frame": 6
+        },
+        "soundLoop": true,
+        "fall": true,
+        "explosion":
+        {
+            "key": "debris",
+            "color": "#8f563b",
+            "colorMode": "color"
+        },
+        "spinTrail":
+        {
+            "color": "#cbdbfc"
+        }
+
+
+    },
+
+    "ice_staff":
+    {
+
+        "type": "equipment",
+        "damage": 3,
+        "speed": 250,
+        "homing": 0.5,
+        "sprite":
+        {
+            "key": "equipment/ice_staff_spin",
+            "spin": true,
+            "frame": 6
+        },
+        "soundLoop": true,
+        "fall": true,
+        "explosion":
+        {
+            "key": "debris",
+            "color": "#8f563b",
+            "colorMode": "color"
+        },
+        "spinTrail":
+        {
+            "color": "#5fedf4"
+        }
+
+
+    },
+
+    "bow":
+    {
+
+        "type": "equipment",
+        "damage": 3,
+        "speed": 250,
+        "homing": 0.5,
+        "sprite":
+        {
+            "key": "equipment/bow_spin",
+            "spin": true,
+            "frame": 6
+        },
+        "soundLoop": true,
+        "explosion":
+        {
+            "key": "debris",
+            "color": "#8f563b",
+            "colorMode": "color"
+        },
+        "spinTrail":
+        {
+            "color": "#8f563b"
+        }
+
+    },
+
+    "club":
+    {
+
+        "type": "equipment",
+        "damage": 3,
+        "speed": 250,
+        "homing": 0.5,
+        "sprite":
+        {
+            "key": "equipment/club_spin",
+            "spin": true,
+            "frame": 6
+        },
+        "soundLoop": true,
+        "explosion":
+        {
+            "key": "debris",
+            "color": "#8f563b",
+            "colorMode": "color"
+        },
+        "spinTrail":
+        {
+            "color": "#8f563b"
+        }
+
+    },
+
+
+    "stone":
+    {
+
+        "type": "knife",
+        "damage": 0.5,
+        "speed": 400,
+        "homing": 3.0,
+        "build": true,
+        "climbing": true,
+        "resource": "stone",
+        "amount": 1,
+        "stunChance": 1.0,
+        "sprite":
+        {
+            "key": "pickups/stone",
+            "spin": true,
+            "palette": -1
+        }
+
+    },
+
+    "wood":
+    {
+
+        "damage": 2,
+        "speed": 1.0,
+        "sprite":
+        {
+            "key": "equipment/bomb_spin",
+            "lookAt": true,
+            "scaleX": 2,
+            "scaleY": 2
+        },
+        "trail":
+        {
+            "color": "#9badb7"
+        },
+        "explosion":
+        {
+            "key": "debris",
+            "color": "#8f563b",
+            "colorMode": "color"
+        }
+
+
+    },
+
+    "throwing_knife":
+    {
+
+        "type": "knife",
+        "damage": 2,
+        "speed": 600,
+        "homing": 0.75,
+        "sprite":
+        {
+            "key": "equipment/throwing_knife_spin",
+            "lookAt": true,
+            "scaleX": 2,
+            "scaleY": 2
+        },
+        "trail":
+        {
+            "color": "#9badb7"
+        },
+        "explosion":
+        {
+            "key": "debris",
+            "color": "#cbdbfc",
+            "colorMode": "color"
+        },
+        "impactSound": "impact/rattle"
+
+
+    },
+
+
+    "bomb":
+    {
+        "aoe": 80,
+        "damage": 2,
+        "speed": 1.0,
+        "demolish": 10,
+        "sprite":
+        {
+            "key": "equipment/bomb_spin",
+            "lookAt": true,
+            "scaleX": 2,
+            "scaleY": 2
+        },
+        "trail":
+        {
+            "color": "#9badb7"
+        },
+        "explosion":
+        {
+            "key": "debris",
+            "color": "#8f563b",
+            "colorMode": "color"
+        }
+
+    },
+
+    "ice_ball":
+    {
+
+        "type": "sprite",
+        "sound": "spells/blaster",
+        "damage": 1,
+        "speed": 500,
+        "head": [0, 22, 16, 13],
+        "lighting": true,
+        "explosion":
+        {
+            "color": "#5fcde4",
+            "colorMode": "color"
+        },
+        "trail":
+        {
+            "color": "#5fcde4",
+            "key": "fx/trail2",
+            "duration": 0.05,
+            "scaleX": 0.5
+        },
+        "impactSound": "impact/poof"
+
+    }
+
+
+}

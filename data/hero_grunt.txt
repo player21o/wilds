@@ -1,0 +1,7 @@
+GRUNT
++ Universal hero
++ Have a block and counter attack
++ Can knock down enemies
++ Special move: SHOCKWAVE
++ Can disarm mines with SHOCKWAVE
+- Can't hit knocked down enemies

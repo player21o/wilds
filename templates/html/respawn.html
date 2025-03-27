@@ -1,0 +1,52 @@
+<div class="window center-window gui-cols spacing-md respawn-window ui">
+    <div style="width:420px" ui-id="left">
+    </div>
+    <div class="gui-rows style-1 right spacing-md" ui-id="right">
+        <div class="side-menu gui-rows">
+            <span ui-id="settings" class="button stretch just-center gui-clickable" title="settings" style="font-size: 32px; font-weight: normal;">&#x2328;</span>
+        </div>
+        <div ui-id=respawnPanel>
+            <div ui-id=respawnTimer></div>
+            <div class="gui-form-divide" ui-id="loginPanelTitle">RESPAWN IN SELECTED TEAM</div>
+            <div class="gui-cols space-center grow-equal spacing-sm">
+                <button ui-id=respawn class="gui-button green just-center primary size-md">Auto</button>
+                <button team=0 ui-id=respawn0 class="gui-button brown just-center size-md">Brown</button>
+                <button team=1 ui-id=respawn1 class="gui-button gray just-center size-md">Gray</button>
+                <button team=2 ui-id=respawn2 class="gui-button black just-center size-md">None</button>
+            </div>
+        </div>
+        <div ui-id=exitPanel>
+            <div ui-id=respawnTimer></div>
+            <div class="gui-form-divide" ui-id="loginPanelTitle">You have died.</div>
+            <div class="gui-cols space-center grow-equal spacing-sm">
+                <button ui-id=spectate class="gui-button just-center size-md">Spectate</button>
+            </div>
+        </div>
+        <div class="gui-form-divide hidden" ui-id="loginPanelTitle">STATISTICS</div>
+        <div ui-id="counters" class="gui-cols space-around"></div>
+        <div ui-id=goldCollected class="hidden">
+        </div>
+        <div ui-id=custom>
+        </div>
+        <div ui-id=guestWarning class="gui-cols spacing-sm guest-warning">
+            You are playing as a guest. Register to buy new weapons and appear in leaderboards. New users get 2000 gold for a good start.
+        </div>
+        <div ui-id=gameLinks class="outgoing-link">
+            <div class="gui-form-divide" ui-id="loginPanelTitle">INVITE FRIENDS TO MAKE A TEAM</div>
+            <div class="gui-cols spacing-md">
+                <input ui-id="inviteURL" id="inviteURL" class="gui-input" />
+                <button ui-id=copyURL class="gui-button just-center size-md" data-clipboard-target="#inviteURL">COPY</button>
+            </div>
+        </div>
+        <div class="gui-cols spacing-sm">
+            <button ui-id=playAgain class="gui-button grow-1 green just-center size-md">Play Again</button>
+            <button ui-id=help class="gui-button grow-1 primary just-center size-md">How to play</button>
+            <button ui-id=exit class="gui-button grow-1 just-center size-md">Menu</button>
+            <button ui-id=moreGames class="gui-button grow-1 blue just-center size-md outgoing-link">More games</button>
+        </div>
+
+        <div style="background: #8e4040; color: #d6caaf; padding: 4px 6px; border-radius: 5px" ui-id="iogames" class="outgoing-link">
+            Wilds.io is free of ads - if you want to support developer check out <a href="https://spritestack.io" target="_blank" ui-id="voteonio">SpriteStack.io</a> 3D pixelart editor by Rezoner.
+        </div>
+    </div>
+</div>
