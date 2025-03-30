@@ -32694,8 +32694,6 @@ CLIENT.Game = {
         var message = packet[0];
         var data = packet[1];
 
-        console.log(packet)
-
         this.handleMessage(message, data);
 
     },
